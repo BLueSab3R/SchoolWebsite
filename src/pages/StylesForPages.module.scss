@@ -1,0 +1,27 @@
+.photo {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    text-indent: 1;
+    justify-content: center;
+    padding: 5%;
+}
+.styles {
+    h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p {
+        text-indent: 1;
+    }
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+    }
+}
