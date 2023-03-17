@@ -1,34 +1,26 @@
-.title {
+.logo{
     display: flex;
-    font-size: 10px;
-    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.photo{
+    margin-right: 1rem;
+}
+.text{
+    margin-right: 31rem;
+    text-align: center;
 }
 
 .header {
-    max-height: 130px;
+    height: 100%;
     position: sticky;
     background: #FFC4BC;
     border: 1px solid;
     border-radius: 18px;
-    top: -2px;
-    bottom: -2px;
-    left: -2px;
-    right: -2px;
     grid-area: header;
     background-image: linear-gradient(312.25deg, #FFC4BC 0%, rgba(255, 255, 255, 0) 66.19%);
-    margin-bottom: 0;
 }
 
-.fastMenu {
-    ul {
-        text-align: center;
-    }
 
-    li {
-        display: inline-flex;
-        margin: 10px;
-        justify-content: center;
-        text-align: center;
-    }
-}
 
