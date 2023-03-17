@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SchoolWebsite/static/css/main.6c6ff2fa.css",
+    "main.js": "/SchoolWebsite/static/js/main.bf22aa36.js",
+    "index.html": "/SchoolWebsite/index.html",
+    "main.6c6ff2fa.css.map": "/SchoolWebsite/static/css/main.6c6ff2fa.css.map",
+    "main.bf22aa36.js.map": "/SchoolWebsite/static/js/main.bf22aa36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c6ff2fa.css",
+    "static/js/main.bf22aa36.js"
+  ]
+}
