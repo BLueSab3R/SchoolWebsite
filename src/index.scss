@@ -12,7 +12,7 @@ body {
   border-radius: 1.4rem;
   max-width: 80rem;
   width: 200rem;
-  height: auto;
+  min-height: fit-content;
   background-color: rgb(247, 242, 242);
   display: grid;
   grid-template-rows: 1.2fr 10fr 1fr;
@@ -24,6 +24,7 @@ body {
 }
 .app-wrapper-content {
   grid-area: content;
+  height: 50%;
 }
 
 

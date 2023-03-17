@@ -15,7 +15,7 @@ function App() {
       <Header />
       <div className='app-wrapper-content'>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='SchoolWebsite' element={<Home />} />
           <Route path = 'schoolhistory' element={<SchoolHistory/>}/>
           <Route path='pedagogichiyColectiv' element = {<PedagogichiyColectiv/>}/>
           <Route path= 'lyceumTarget' element = {<LyceumTarget/>} />
