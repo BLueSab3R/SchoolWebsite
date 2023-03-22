@@ -3,24 +3,38 @@
     justify-content: center;
     align-items: center;
 }
+
 .text {
     text-indent: 1;
     justify-content: center;
     padding: 5%;
 }
+
 .styles {
     h3 {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     p {
         text-indent: 1;
+        padding: 1rem;
     }
+
+    h4 {
+        color: black;
+    }
+
     li {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 2%;
+        padding: 1rem;
     }
+}
+
+.visionary{
+    line-height: 1.5rem;
+    font-size: 25px;
 }

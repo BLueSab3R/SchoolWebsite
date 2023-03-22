@@ -11,15 +11,17 @@
     margin-right: 31rem;
     text-align: center;
 }
-
+h1{
+    color: white;
+}
 .header {
     height: 100%;
     position: sticky;
-    background: #FFC4BC;
+    background: white;
     border: 1px solid;
     border-radius: 18px;
     grid-area: header;
-    background-image: linear-gradient(312.25deg, #FFC4BC 0%, rgba(255, 255, 255, 0) 66.19%);
+    background:#002a38;
 }
 
 
