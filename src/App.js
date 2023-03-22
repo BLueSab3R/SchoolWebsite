@@ -16,7 +16,7 @@ function App() {
       <div className='app-wrapper-content'>
         <Routes>
           <Route exact path='/' element={<Home />} />
-          <Route path='SchoolWebsite' element={<Home />} />
+          {/* <Route path='SchoolWebsite' element={<Home />} /> */}
           <Route path='schoolhistory' element={<SchoolHistory />} />
           <Route path='teachingstaff' element={<TeachingStaff />} />
           <Route path='lyceumTarget' element={<LyceumTarget />} />
