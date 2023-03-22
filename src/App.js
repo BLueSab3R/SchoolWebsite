@@ -3,7 +3,7 @@ import Home from './home/Home';
 import './index.scss';
 import { Route, Routes } from 'react-router-dom'
 import SchoolHistory from './pages/SchoolHistory';
-import PedagogichiyColectiv from './pages/PedagogichiyColectiv';
+import TeachingStaff from './pages/TeachingStaff';
 import LyceumTarget from './pages/LyceumTarget';
 import Visionary from './pages/Visionary';
 import SchoolGoal from './pages/SchoolGoal';
@@ -15,15 +15,15 @@ function App() {
       <Header />
       <div className='app-wrapper-content'>
         <Routes>
-          <Route path='SchoolWebsite' element={<Home />} />
-          <Route path = 'schoolhistory' element={<SchoolHistory/>}/>
-          <Route path='pedagogichiyColectiv' element = {<PedagogichiyColectiv/>}/>
-          <Route path= 'lyceumTarget' element = {<LyceumTarget/>} />
-          <Route path = 'visionary'  element = {<Visionary/>}/>
-          <Route path = 'schoolGoal' element = {<SchoolGoal/>}/>
+          <Route path='/' element={<Home />} />
+          <Route path='schoolhistory' element={<SchoolHistory />} />
+          <Route path='teachingstaff' element={<TeachingStaff />} />
+          <Route path='lyceumTarget' element={<LyceumTarget />} />
+          <Route path='visionary' element={<Visionary />} />
+          <Route path='schoolGoal' element={<SchoolGoal />} />
         </Routes>
       </div>
-      <Information/>
+      <Information />
     </div>
   );
 }

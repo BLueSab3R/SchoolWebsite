@@ -1,5 +1,5 @@
 import style from './StylesForPages.module.scss'
-function PedagogichiyColectiv() {
+function TeachingStaff() {
     return (
         <div className={style.styles}>
             <div className={style.photo}>
@@ -33,4 +33,4 @@ function PedagogichiyColectiv() {
     )
 }
 
-export default PedagogichiyColectiv;
+export default TeachingStaff;

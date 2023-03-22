@@ -12,11 +12,11 @@ function Header() {
             </div>
             <ul>
                 <li>
-                    <div class="dropdown">
-                        <Link to='/'> <button class="dropbtn">Головна</button> </Link>
-                        <div class="dropdown-content">
+                    <div className="dropdown">
+                        <Link to='/'> <button className="dropbtn">Головна</button> </Link>
+                        <div className="dropdown-content">
                             <Link to='schoolHistory'>Історія школи</Link>
-                            <Link to='pedagogichiyColectiv'>Педагогічний колектив</Link>
+                            <Link to='teachingstaff'>Педагогічний колектив</Link>
                             <Link to='lyceumTarget'>Місія ліцею</Link>
                             <Link to='schoolGoal'>Мета</Link>
                             <Link to='visionary'>Візія</Link>
