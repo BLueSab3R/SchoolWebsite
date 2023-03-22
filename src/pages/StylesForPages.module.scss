@@ -20,6 +20,7 @@
     p {
         text-indent: 1;
         padding: 1rem;
+        line-height: 1.5rem;
     }
 
     h4 {
@@ -35,6 +36,10 @@
 }
 
 .visionary{
-    line-height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80rem;
+    line-height: 4rem;
     font-size: 25px;
 }
