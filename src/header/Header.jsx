@@ -26,11 +26,11 @@ function Header() {
                     <div className="dropdown">
                         <Link to='/'> <button className="dropbtn">Інформаційна відкритість та прозорість</button> </Link>
                         <div className="dropdown-content">
-                            <Link to='schoolHistory'>Оцінювання здобувачів освіти</Link>
-                            <Link to='teachingstaff'>Правила прийому до першого класу</Link>
-                            <Link to='lyceumTarget'>Права і обов'язки учнів</Link>
-                            <Link to='schoolGoal'>Захист персональних даних</Link>
-                            <Link to='visionary'>Гуртки та секції</Link>
+                            <Link to=   'assessmentOfStudents'>Оцінювання здобувачів освіти</Link>
+                            <Link to=''>Правила прийому до першого класу</Link>
+                            <Link to=''>Права і обов'язки учнів</Link>
+                            <Link to=''>Захист персональних даних</Link>
+                            <Link to=''>Гуртки та секції</Link>
                         </div>
                     </div>
 

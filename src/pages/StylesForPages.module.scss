@@ -5,9 +5,8 @@
 }
 
 .text {
-    text-indent: 1;
+    // text-indent: 1;
     justify-content: center;
-    padding: 5%;
 }
 
 .styles {
@@ -18,7 +17,7 @@
     }
 
     p {
-        text-indent: 1;
+        // text-indent: 1;
         padding: 1rem;
         line-height: 1.5rem;
     }
@@ -31,7 +30,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 1rem;
+        padding: 0.7rem;
     }
 }
 
@@ -39,7 +38,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 80rem;
-    line-height: 4rem;
-    font-size: 25px;
+    line-height: 2rem;
+    font-size: 16px;
+    padding: 1rem;
+    line-height: 2.3rem;
 }
