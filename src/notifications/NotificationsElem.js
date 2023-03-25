@@ -3,12 +3,11 @@ import { newsList } from './NotificationData';
 import style from './Notifications.module.scss';
 
 
-function NotificationsElem (){
-    const Params = useParams(); 
+function NotificationsElem() {
+    const Params = useParams();
     const notification = (newsList[Params.id - 1]);
-    console.log(notification);
-    return(
-        <div className={style.notificationDetails}>
+    return (
+        <div className={style.notificationData}>
             <h1>
                 {Params.id}
             </h1>
@@ -16,7 +15,8 @@ function NotificationsElem (){
                 {notification.content}
             </h2>
         </div>
+
     )
-} 
+}
 
 export default NotificationsElem

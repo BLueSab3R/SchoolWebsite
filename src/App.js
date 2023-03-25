@@ -29,16 +29,10 @@ function App() {
           <Route path='assessmentOfStudents' element={<AssessmentOfStudents />} />
           <Route path='rulesFordAmission.js' element={<RulesFordAmission />} />
           <Route path = 'notification/:id' element = {<NotificationsElem />}/>
-          {/* {newsList.map((news) => (
-            <Route
-              key={news.id}
-              path={`/news/${news.id}`}
-              element={<Notifications title={news.title} description={news.description} />}
-            />
-          ))} */}
         </Routes>
       </div>
       <div className="NotificationData">
+        <h1>Оповіщення</h1>
         {newsList.map((news) => (
           <Notifications key = {news.id} id = {news.id} title={news.title} description={news.description} />
         ))}

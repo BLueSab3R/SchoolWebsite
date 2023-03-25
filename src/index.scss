@@ -5,11 +5,22 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.05rem;
-  
+
 }
-NotificationData{
+
+.NotificationData {
+  height: 20rem;
+  overflow: auto;
+  margin-right: 0.1rem;
+  margin-bottom: 30px;
   grid-area: notifications;
+  border: 1px solid;
+  border-radius: 18px;
+  h1{
+    color:  black;
+  }
 }
+
 .wrapper {
   border: 0.1rem solid;
   border-radius: 1.4rem;
@@ -18,11 +29,12 @@ NotificationData{
   display: grid;
   grid-template-rows: 1.2fr auto 1fr;
   grid-template-columns: 10fr 5fr;
-  grid-template-areas: 
-  "header header"
-  "content notifications"
-  "information information";
+  grid-template-areas:
+    "header header"
+    "content notifications"
+    "information information";
 }
+
 .app-wrapper-content {
   grid-area: content;
   width: 100%;
