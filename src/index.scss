@@ -85,3 +85,9 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+}
