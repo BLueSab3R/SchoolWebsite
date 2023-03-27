@@ -33,6 +33,7 @@ function App() {
       </div>
       <div className="NotificationData">
         <h1>Оповіщення</h1>
+        <hr></hr>
         {newsList.map((news) => (
           <Notifications key = {news.id} id = {news.id} title={news.title} description={news.description} />
         ))}
