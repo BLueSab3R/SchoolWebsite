@@ -27,7 +27,7 @@ function App() {
           <Route path='visionary' element={<Visionary />} />
           <Route path='schoolGoal' element={<SchoolGoal />} />
           <Route path='assessmentOfStudents' element={<AssessmentOfStudents />} />
-          <Route path='rulesFordAmission.js' element={<RulesFordAmission />} />
+          <Route path='rulesFordAmission' element={<RulesFordAmission />} />
           <Route path = 'notification/:id' element = {<NotificationsElem />}/>
         </Routes>
       </div>
