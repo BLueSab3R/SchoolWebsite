@@ -13,6 +13,7 @@ import RulesFordAmission from './pages/RulesFordAmission';
 import { newsList } from './notifications/NotificationData';
 import Notifications from './notifications/Notifications';
 import NotificationsElem from './notifications/NotificationsElem';
+import Schedule from './schedule/Schedule';
 function App() {
   return (
     <div className='wrapper clear'>
@@ -29,6 +30,7 @@ function App() {
           <Route path='assessmentOfStudents' element={<AssessmentOfStudents />} />
           <Route path='rulesFordAmission' element={<RulesFordAmission />} />
           <Route path = 'notification/:id' element = {<NotificationsElem />}/>
+          <Route path = 'schedule' element = {<Schedule />}/>
         </Routes>
       </div>
       <div className="NotificationData">

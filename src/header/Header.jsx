@@ -33,7 +33,9 @@ function Header() {
                             <Link to=''>Гуртки та секції</Link>
                         </div>
                     </div>
-
+                    <div className='schedule'>
+                        <Link to='schedule'> <button className="dropbtn">Розклад</button> </Link>
+                    </div>
                 </li>
             </ul>
         </div >
