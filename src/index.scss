@@ -64,6 +64,8 @@ body {
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  overflow: auto;
+  height: 20rem;
   left: 50%;
   transform: translateX(-50%);
   display: none;
