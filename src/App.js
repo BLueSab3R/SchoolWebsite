@@ -40,7 +40,6 @@ function App() {
           <Notifications key = {news.id} id = {news.id} title={news.title} description={news.description} />
         ))}
       </div>
-
       <Information />
     </div>
   );

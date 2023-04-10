@@ -13,8 +13,19 @@
     border-bottom: 0.01rem solid black;
     padding: 10px 0;
 }
-  
-.container{
+
+.container {
     margin-top: 2rem;
     margin-right: 40rem;
+}
+
+
+.dropdown {
+    width: 2rem;
+    /* встановлюємо ширину списку на 300 пікселів */
+
+}
+
+.dropdown-menu {
+    scroll-behavior: smooth;
 }

@@ -6,7 +6,7 @@ function Information() {
         <div  className={style.block}>
             <h4>
                 Телефон: 0459876593
-            </h4>
+            </h4>   
         </div>
 
     )

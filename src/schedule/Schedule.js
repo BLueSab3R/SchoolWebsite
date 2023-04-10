@@ -19,13 +19,17 @@ function Schedule() {
           classNamePrefix="dropdown"
           isClearable={true}
           isSearchable={true}
+          maxMenuHeight={220}
+          menuPlacement="auto"
         />
+
+
       </div>
       <div className='p-40'>
         {selectedClass && selectedClass.data.map(item => (
           <div className={style.wrapper} >
             <div className={style.time}>{item.time}</div>
-            <div  className={style.subject}>{item.subject}</div>
+            <div className={style.subject}>{item.subject}</div>
           </div>
         ))}
       </div>
