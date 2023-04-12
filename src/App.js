@@ -14,6 +14,8 @@ import { newsList } from './notifications/NotificationData';
 import Notifications from './notifications/Notifications';
 import NotificationsElem from './notifications/NotificationsElem';
 import Schedule from './schedule/Schedule';
+import StudentsRule from './pages/StudentsRule';
+import Traditions from './pages/Traditions';
 function App() {
   return (
     <div className='wrapper clear'>
@@ -31,6 +33,10 @@ function App() {
           <Route path='rulesFordAmission' element={<RulesFordAmission />} />
           <Route path = 'notification/:id' element = {<NotificationsElem />}/>
           <Route path = 'schedule' element = {<Schedule />}/>
+          <Route path = 'studentsRule' element = {<StudentsRule />}/>
+          <Route path = 'traditions' element = {<Traditions />}/>
+
+
         </Routes>
       </div>
       <div className="NotificationData">

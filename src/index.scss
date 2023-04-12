@@ -16,7 +16,6 @@ body {
   margin-bottom: 30px;
   grid-area: notifications;
   border: 1px solid;
-  border-radius: 18px;
   h1{
     color:  black;
   }
@@ -28,7 +27,7 @@ body {
   width: 85rem;
   background-color: rgb(247, 242, 242);
   display: grid;
-  grid-template-rows: 1.2fr auto 1fr;
+  grid-template-rows: 1.2fr auto 0.8fr;
   grid-template-columns: 10fr 4fr;
   grid-template-areas:
     "header header"
@@ -59,18 +58,20 @@ body {
   display: inline-block;
 }
 .schedule{
+  z-index: 1;
   position: relative;
   display: inline-block;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  position: absolute;
+  height: 100%;
   overflow: auto;
   height: 20rem;
   left: 50%;
   transform: translateX(-50%);
   display: none;
-  position: absolute;
-  z-index: 1;
+  z-index: 9999;
 }
 
 /* Links inside the dropdown */
@@ -97,3 +98,4 @@ body {
     width: 100%;
   }
 }
+

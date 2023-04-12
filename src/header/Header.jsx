@@ -28,7 +28,7 @@ function Header() {
                         <div className="dropdown-content">
                             <Link to='assessmentOfStudents'>Оцінювання здобувачів освіти</Link>
                             <Link to='rulesFordAmission'>Правила прийому до першого класу</Link>
-                            <Link to=''>Права і обов'язки учнів</Link>
+                            <Link to='studentsRule'>Права і обов'язки учнів</Link>
                             <Link to=''>Захист персональних даних</Link>
                             <Link to=''>Гуртки та секції</Link>
                         </div>

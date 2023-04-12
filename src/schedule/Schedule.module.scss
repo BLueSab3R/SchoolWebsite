@@ -4,10 +4,9 @@
 
 .subject {
     margin-right: 15rem;
-
 }
 
-.wrapper {
+.wrapper{
     display: flex;
     justify-content: space-between;
     border-bottom: 0.01rem solid black;
@@ -15,17 +14,15 @@
 }
 
 .container {
-    margin-top: 2rem;
-    margin-right: 40rem;
+    margin-top: 1rem;
+    margin-left: 25rem;
+    position: relative;
+    z-index: 0;
 }
 
-
-.dropdown {
-    width: 2rem;
-    /* встановлюємо ширину списку на 300 пікселів */
-
-}
-
-.dropdown-menu {
-    scroll-behavior: smooth;
+.dropdownWrapper {
+    position:fixed;
+    width: 7.9rem;
+    margin-left: 1rem;
+    z-index: 2;
 }

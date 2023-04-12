@@ -15,15 +15,13 @@ function Schedule() {
           onChange={handleChange}
           options={ScheduleData}
           placeholder="Клас"
-          className="dropdown"
           classNamePrefix="dropdown"
           isClearable={true}
           isSearchable={true}
           maxMenuHeight={220}
           menuPlacement="auto"
+          className={style.dropdownWrapper}
         />
-
-
       </div>
       <div className='p-40'>
         {selectedClass && selectedClass.data.map(item => (
@@ -36,7 +34,7 @@ function Schedule() {
 
 
 
-    </div>
+    </div >
   );
 }
 
