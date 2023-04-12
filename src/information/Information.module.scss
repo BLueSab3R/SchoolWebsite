@@ -1,12 +1,37 @@
-.block{
+.block {
+    margin-right: 10rem;
+}
+
+.wrapper {
     background: #002a38;
     grid-area: information;
-    border: 1px solid;
-    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
 }
 
-
-h4{
-    color: white    ;
+.links {
+    display: flex;
+    flex-direction: column;
+    color: #4dbcfd;
+    p {
+        color: white;
+    }
 }
 
+h4 {
+    color: white;
+}
+
+.number {
+    margin-left: 25rem;
+    float: right;
+    color: white;
+}
+
+.link:hover {
+    color: lighten($color: #4dbcfd, $amount: 40);
+}
+
+h4:hover {
+    color: lighten($color: #4dbcfd, $amount: 20);
+}

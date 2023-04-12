@@ -27,7 +27,7 @@ body {
   width: 85rem;
   background-color: rgb(247, 242, 242);
   display: grid;
-  grid-template-rows: 1.2fr auto 0.8fr;
+  grid-template-rows: 0.9fr auto 1fr;
   grid-template-columns: 10fr 4fr;
   grid-template-areas:
     "header header"

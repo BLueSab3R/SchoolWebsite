@@ -16,6 +16,9 @@ import NotificationsElem from './notifications/NotificationsElem';
 import Schedule from './schedule/Schedule';
 import StudentsRule from './pages/StudentsRule';
 import Traditions from './pages/Traditions';
+import PersonalDataProtection from './pages/PersonalDataProtection';
+import Statut from './pages/Statut';
+import Content from './pages/Content';
 function App() {
   return (
     <div className='wrapper clear'>
@@ -35,6 +38,9 @@ function App() {
           <Route path = 'schedule' element = {<Schedule />}/>
           <Route path = 'studentsRule' element = {<StudentsRule />}/>
           <Route path = 'traditions' element = {<Traditions />}/>
+          <Route path = 'personalDataProtection' element = {<PersonalDataProtection />}/>
+          <Route path = 'statute' element = {<Statut />}/>
+          <Route path = 'content' element = {<Content/>}/>
 
 
         </Routes>
