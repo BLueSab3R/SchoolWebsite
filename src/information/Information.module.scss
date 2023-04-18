@@ -3,10 +3,11 @@
 }
 
 .wrapper {
-    background: #002a38;
+    background: #273878;
     grid-area: information;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 .links {

@@ -5,9 +5,9 @@ function Header() {
     return (
         <div className={style.header}>
             <div className={style.logo}>
-                <img className={style.photo} width={80} height={90} src='/images/logo-removebg-preview.png' alt='log' />
+                <img className={style.photo} width={150} height={190} src='/images/logo-removebg-preview.png' alt='log' />
                 <h1 className={style.text}>
-                    Сайт школи 'Скіф'
+                    ШПИТЬКІВСЬКА ЗАГАЛЬНООСВІТНЯ ШКОЛА І-ІІІ СТУПЕНІВ ДМИТРІВСЬКОЇ СІЛЬСЬКОЇ РАДИ БУЧАНСЬКОГО РАЙОНУ КИЇВСЬКОЇ ОБЛАСТІ
                 </h1>
             </div>
             <ul>
@@ -51,11 +51,11 @@ function Header() {
                             <Link to=''>Виховні проекти</Link>
                             <Link to=''>Правила поведінки під час канікул</Link>
                             <Link to=''>Правове виховання та профілактика шкідливих звичок
-                            та девіантної поведінки зд.ос
+                                та девіантної поведінки зд.ос
                             </Link>
                             <Link to=''>Формування поведінки правильних безпекових дій в умовах
-                            воєнного стану 
-                             </Link>
+                                воєнного стану
+                            </Link>
                             <Link to=''>Протидія булінгу</Link>
                             <Link to=''>Правила поведінки здобувачів освіти</Link>
                         </div>
@@ -68,11 +68,11 @@ function Header() {
                             <Link to=''>Виховні проекти</Link>
                             <Link to=''>Правила поведінки під час канікул</Link>
                             <Link to=''>Правове виховання та профілактика шкідливих звичок
-                            та девіантної поведінки зд.ос
+                                та девіантної поведінки зд.ос
                             </Link>
                             <Link to=''>Формування поведінки правильних безпекових дій в умовах
-                            воєнного стану 
-                             </Link>
+                                воєнного стану
+                            </Link>
                             <Link to=''>Протидія булінгу</Link>
                             <Link to=''>Правила поведінки здобувачів освіти</Link>
                         </div>

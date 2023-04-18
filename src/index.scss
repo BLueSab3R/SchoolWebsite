@@ -1,33 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 body {
-  background: #d8d8d8;
+  height: auto;
+  width: auto;
+  background: #ffc5bd;
   display: flex;
   justify-content: center;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.05rem;
 
+  text-align: center;
 }
+
+* {
+  font-family: 'Kelly Slab', cursive;
+}
+
 
 .NotificationData {
   height: 20rem;
   overflow: auto;
   width: 27rem;
   margin-right: 0.1rem;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
   grid-area: notifications;
   border: 1px solid;
-  h1{
-    color:  black;
+  h1 {
+    color: black;
   }
 }
 
 .wrapper {
-  border: 0.1rem solid;
-  border-radius: 1.4rem;
-  width: 85rem;
-  background-color: rgb(247, 242, 242);
+  width: 100%;
+  height: 100%;
+  background-color: #ffc5bd;
   display: grid;
-  grid-template-rows: 0.9fr auto 1fr;
+  grid-template-rows: 0.9fr auto 0.7fr;
   grid-template-columns: 10fr 4fr;
   grid-template-areas:
     "header header"
@@ -45,7 +51,7 @@ body {
 /* Style the dropdown button */
 .dropbtn {
   cursor: pointer;
-  background: #002a38;
+  background: #273878;
   color: white;
   padding: 1rem;
   font-size: 16px;
@@ -57,11 +63,13 @@ body {
   position: relative;
   display: inline-block;
 }
-.schedule{
+
+.schedule {
   z-index: 1;
   position: relative;
   display: inline-block;
 }
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   position: absolute;
@@ -98,4 +106,3 @@ body {
     width: 100%;
   }
 }
-

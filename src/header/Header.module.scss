@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 10rem;
 }
 .photo{
     margin-right: 1rem;
+
 }
 .text{
-    margin-right: 31rem;
+    margin-right: 1rem;
     text-align: center;
 }
 h1{
@@ -16,11 +18,8 @@ h1{
 .header {
     height: 100%;
     position: sticky;
-    background: white;
-    border: 1px solid;
-    border-radius: 18px;
+    background: #273878;
     grid-area: header;
-    background:#002a38;
 }
 
 
