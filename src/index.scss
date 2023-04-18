@@ -6,7 +6,7 @@ body {
   background: #ffc5bd;
   display: flex;
   justify-content: center;
-
+  margin: 0;
   text-align: center;
 }
 
@@ -16,11 +16,13 @@ body {
 
 
 .NotificationData {
-  height: 20rem;
+  h1{
+    cursor:default;
+  }
+  background-color: white;
+  height: fit-content;
   overflow: auto;
-  width: 27rem;
-  margin-right: 0.1rem;
-  margin-bottom: 3rem;
+  width: auto;
   grid-area: notifications;
   border: 1px solid;
   h1 {

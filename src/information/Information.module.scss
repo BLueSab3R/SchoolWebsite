@@ -1,5 +1,7 @@
 .block {
     margin-right: 10rem;
+    border-right: 1px solid #4dbcfd;
+    padding-right: 2rem;
 }
 
 .wrapper {
@@ -22,7 +24,10 @@
 h4 {
     color: white;
 }
-
+.content{
+    border-right: 1px solid white;
+    padding-right: 9rem;
+}
 .number {
     margin-left: 25rem;
     float: right;
