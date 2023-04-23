@@ -24,79 +24,68 @@ function Header() {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <Link to='/'> <button className="dropbtn">Інформаційна відкритість та прозорість</button> </Link>
+                        <button className="dropbtn">Інформаційна відкритість та прозорість</button>
                         <div className="dropdown-content">
                             <Link to='assessmentOfStudents'>Оцінювання здобувачів освіти</Link>
                             <Link to='rulesFordAmission'>Правила прийому до першого класу</Link>
                             <Link to='studentsRule'>Права і обов'язки учнів</Link>
                             <Link to='personalDataProtection'>Захист персональних даних</Link>
-                            <Link to=''>Гуртки та секції</Link>
+                            <Link to='clubsAndSections'>Гуртки та секції</Link>
                         </div>
                     </div>
                     <div className="dropdown">
-                        <Link to='/'> <button className="dropbtn">Безпечне оствітнє середовище</button> </Link>
+                         <button className="dropbtn">Безпечне оствітнє середовище</button> 
                         <div className="dropdown-content">
-                            <Link to=''>Охорона прав дитини</Link>
-                            <Link to=''>Профілактика і попередження травматизму під час освітнього процесу</Link>
-                            <Link to=''>Дотримання правил внутрішнього розпорядку</Link>
-                            <Link to=''>Харчування</Link>
-                            <Link to=''>Правила поведінки під час канікул</Link>
+                            <Link to='protectionOfChildrensRights'>Охорона прав дитини</Link>
+                            <Link to='preventionOfInjuriesDuringTheEducationalProcess'>Профілактика і попередження травматизму під час освітнього процесу</Link>
+                            <Link to='complianceWithInternalRegulations'>Дотримання правил внутрішнього розпорядку</Link>
+                            <Link to='food'>Харчування</Link>
+                            <Link to='rulesOfBehaviorDuringTheHolidays'>Правила поведінки під час канікул</Link>
                         </div>
                     </div>
                     <div className="dropdown">
-                        <Link to='/'> <button className="dropbtn">Виховна робота</button> </Link>
+                        <button className="dropbtn">Виховна робота</button> 
                         <div className="dropdown-content">
-                            <Link to=''>Учнівське самоврядування</Link>
-                            <Link to=''>Національно-патріотичне виховання</Link>
-                            <Link to=''>Виховні проекти</Link>
-                            <Link to=''>Правила поведінки під час канікул</Link>
-                            <Link to=''>Правове виховання та профілактика шкідливих звичок
+                            <Link to='studentSelf-government'>Учнівське самоврядування</Link>
+                            <Link to='nationalAndPatrioticEducation'>Національно-патріотичне виховання</Link>
+                            <Link to='educationalProjects'>Виховні проекти</Link>
+                            <Link to='legalEducationAndPreventionOfBadHabitsAndDeviantBehaviorOfChildren'>Правове виховання та профілактика шкідливих звичок
                                 та девіантної поведінки зд.ос
                             </Link>
-                            <Link to=''>Формування поведінки правильних безпекових дій в умовах
+                            <Link to='formationOfBehaviorOfCorrectSecurityActionsInConditionsOfMartialLaw'>Формування поведінки правильних безпекових дій в умовах
                                 воєнного стану
                             </Link>
-                            <Link to=''>Протидія булінгу</Link>
-                            <Link to=''>Правила поведінки здобувачів освіти</Link>
+                            <Link to='counteringBullying'>Протидія булінгу</Link>
+                            <Link to='rulesOfConductForStudents'>Правила поведінки здобувачів освіти</Link>
                         </div>
                     </div>
                     <div className="dropdown">
-                        <Link to='/'> <button className="dropbtn">Для батьків</button> </Link>
+                        <button className="dropbtn">Для батьків</button> 
                         <div className="dropdown-content">
-                            <Link to=''>Учнівське самоврядування</Link>
-                            <Link to=''>Національно-патріотичне виховання</Link>
-                            <Link to=''>Виховні проекти</Link>
-                            <Link to=''>Правила поведінки під час канікул</Link>
-                            <Link to=''>Правове виховання та профілактика шкідливих звичок
-                                та девіантної поведінки зд.ос
-                            </Link>
-                            <Link to=''>Формування поведінки правильних безпекових дій в умовах
-                                воєнного стану
-                            </Link>
-                            <Link to=''>Протидія булінгу</Link>
-                            <Link to=''>Правила поведінки здобувачів освіти</Link>
+                            <Link to='rightsAndObligationsOfParentsOrPersonsInLocoParentis'>Права та обов'язки батьків, або осіб, що їх заміняють</Link>
+                            <Link to='recommendationsForRaisingASuccessfulStudent'>Рекомендації щодо виховання успішного школяра</Link>
                         </div>
                     </div>
                     <div className="dropdown">
-                        <Link to='/'> <button className="dropbtn">Навчально-методична робота</button> </Link>
+                         <button className="dropbtn">Навчально-методична робота</button> 
                         <div className="dropdown-content">
-                            <Link to=''>Освітні програми</Link>
-                            <Link to=''>Освітні проекти - 'Єдина школа'</Link>
-                            <Link to=''>Олімпіади</Link>
-                            <Link to=''>Конкурси</Link>
-                            <Link to=''>Робота з обдарованими учнями</Link>
-                            <Link to=''>Наша гордість</Link>
-                            <Link to=''>Методичні об'єднання</Link>
-                            <Link to=''>ЗНО/ДПА</Link>
-                            <Link to=''>Дистанційне навчання</Link>
-                            <Link to=''>Інклюзивне навчання</Link>
+                            <Link to='educationalPrograms'>Освітні програми</Link>
+                            <Link to='educationalProjects'>Освітні проекти - 'Єдина школа'</Link>
+                            <Link to='olympics'>Олімпіади</Link>
+                            <Link to='competitions'>Конкурси</Link>
+                            <Link to='workingWithGiftedStudents'>Робота з обдарованими учнями</Link>
+                            <Link to='ourPride'>Наша гордість</Link>
+                            <Link to='methodologicalAssociations'>Методичні об'єднання</Link>
+                            <Link to='EIT/STA'>ЗНО/ДПА</Link>
+                            <Link to='distanceEducation'>Дистанційне навчання</Link>
+                            <Link to='inclusiveEducation'>Інклюзивне навчання</Link>
                         </div>
                     </div>
                     <div className='schedule'>
-                        <Link to='schedule'> <button className="dropbtn">Робота психологічної служби</button> </Link>
+                        <Link to='workOfThePsychologicalService'> <button className="dropbtn">Робота психологічної служби</button> </Link>
                     </div>
                     <div className='schedule'>
-                        <Link to='schedule'> <button className="dropbtn">Бібліотека</button> </Link>
+                        <Link to='library'> <button className="dropbtn">Бібліотека</button> </Link>
                     </div>
                     <div className='schedule'>
                         <Link to='schedule'> <button className="dropbtn">Розклад</button> </Link>

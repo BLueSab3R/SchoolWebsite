@@ -1,16 +1,64 @@
 .notificationDetails {
     border-bottom: 1px solid #ccc;
     padding: 1rem;
-    h2{
+
+    h2 {
         font-size: 14px;
     }
 }
-.notList{
+
+.notList {
     background-color: white;
 }
+
+.imgList {
+    height: 100%;
+    position: relative;
+}
+
+.leftIcon {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: 'translate(0, -50%)';
+    left: 2rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rightIcon {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: 'translate(0, -50%)';
+    right: 2rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+img {
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+
 .notificationData {
+    padding: 1rem;
 
     h1 {
         color: black;
     }
+}
+
+
+.leftIcon,
+.rightIcon {
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
 }

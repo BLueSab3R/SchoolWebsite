@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Notifications.module.scss';
 import { Link } from 'react-router-dom'
-function NotificationDetails({ title, description, id }) {
+function NotificationDetails({ title, description, id, image}) {
   return (
     <div className={style.notList}>
       <div className={style.notificationDetails}>

@@ -19,6 +19,8 @@ import Traditions from './pages/Traditions';
 import PersonalDataProtection from './pages/PersonalDataProtection';
 import Statut from './pages/Statut';
 import Content from './pages/Content';
+import RecommendationsForRaisingASuccessfulStudent from './pages/RecommendationsForRaisingASuccessfulStudent';
+import RightsAndObligationsOfParentsOrPersonsInLocoParentis from './pages/rightsAndObligationsOfParentsOrPersonsInLocoParentis';
 function App() {
   return (
     <div className='wrapper clear'>
@@ -41,15 +43,39 @@ function App() {
           <Route path = 'personalDataProtection' element = {<PersonalDataProtection />}/>
           <Route path = 'statute' element = {<Statut />}/>
           <Route path = 'content' element = {<Content/>}/>
-
-
+          <Route path = 'clubsAndSections' element = {<Content/>}/>
+          <Route path = 'protectionOfChildrensRights' element = {<Content/>}/>
+          <Route path = 'preventionOfInjuriesDuringTheEducationalProcess' element = {<Content/>}/>
+          <Route path = 'complianceWithInternalRegulations' element = {<Content/>}/>
+          <Route path = 'Food' element = {<Content/>}/>
+          <Route path = 'rulesOfBehaviorDuringTheHolidays' element = {<Content/>}/>
+          <Route path = 'studentSelf-government' element = {<Content/>}/>
+          <Route path = 'nationalAndPatrioticEducation' element = {<Content/>}/>  
+          <Route path = 'educationalProjects' element = {<Content/>}/>
+          <Route path = 'legalEducationAndPreventionOfBadHabitsAndDeviantBehaviorOfChildren' element = {<Content/>}/>
+          <Route path = 'formationOfBehaviorOfCorrectSecurityActionsInConditionsOfMartialLaw' element = {<Content/>}/>
+          <Route path = 'counteringBullying' element = {<Content/>}/>
+          <Route path = 'rulesOfConductForStudents' element = {<Content/>}/>
+          <Route path = 'rightsAndObligationsOfParentsOrPersonsInLocoParentis' element = {<RightsAndObligationsOfParentsOrPersonsInLocoParentis/>} />
+          <Route path = 'recommendationsForRaisingASuccessfulStudent' element = {<RecommendationsForRaisingASuccessfulStudent/>}/>
+          <Route path = 'educationalPrograms' element = {<Content/>}/>
+          <Route path = 'educationalProjects' element = {<Content/>}/>
+          <Route path = 'olympics' element = {<Content/>}/>
+          <Route path = 'competitions' element = {<Content/>}/>
+          <Route path = 'workingWithGiftedStudents' element = {<Content/>}/>
+          <Route path = 'ourPride' element = {<Content/>}/>
+          <Route path = 'EIT/STA' element = {<Content/>}/>
+          <Route path = 'distanceEducation' element = {<Content/>}/>
+          <Route path = 'inclusiveEducation' element = {<Content/>}/>
+          <Route path = 'workOfThePsychologicalService' element = {<Content/>}/>
+          <Route path = 'library' element = {<Content/>}/>
         </Routes>
       </div>
       <div className="NotificationData">
         <h1>Оповіщення</h1>
         <hr></hr>
         {newsList.map((news) => (
-          <Notifications key = {news.id} id = {news.id} title={news.title} description={news.description} />
+          <Notifications key = {news.id} id = {news.id} title={news.title} description={news.description} image = {news.image} />
         ))}
       </div>
       <Information />
