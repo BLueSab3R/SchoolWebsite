@@ -1,9 +1,9 @@
 import React from 'react'
 import style from './StylesForPages.module.scss'
 
-function RightsAndObligationsOfParentsOrPersonsInLocoParentis ()  {
+const rightsAndObligationsOfParentsOrPersonsInLocoParentis = () => {
     return (
-        <div lassName={style.styles}>
+        <div sclassName={style.styles} >
             Основні права і обов'язки батьків українською законодавством визначаються у сімейному кодексі України та інших нормативно-правових актах. Нижче наведено деякі з них:
 
             Права батьків:
@@ -25,4 +25,4 @@ function RightsAndObligationsOfParentsOrPersonsInLocoParentis ()  {
     )
 }
 
-export default RightsAndObligationsOfParentsOrPersonsInLocoParentis;
+export default rightsAndObligationsOfParentsOrPersonsInLocoParentis

@@ -20,7 +20,9 @@ import PersonalDataProtection from './pages/PersonalDataProtection';
 import Statut from './pages/Statut';
 import Content from './pages/Content';
 import RecommendationsForRaisingASuccessfulStudent from './pages/RecommendationsForRaisingASuccessfulStudent';
-import RightsAndObligationsOfParentsOrPersonsInLocoParentis from './pages/rightsAndObligationsOfParentsOrPersonsInLocoParentis';
+import RightsAndObligationsOfParentsOrPersonsInLocoParentis from './pages/RightsAndObligationsOfParentsOrPersonsInLocoParentis';
+import WorkOfThePsychologicalService from './pages/WorkOfThePsychologicalService';
+import EducationalPrograms from './pages/EducationalPrograms';
 function App() {
   return (
     <div className='wrapper clear'>
@@ -56,9 +58,9 @@ function App() {
           <Route path = 'formationOfBehaviorOfCorrectSecurityActionsInConditionsOfMartialLaw' element = {<Content/>}/>
           <Route path = 'counteringBullying' element = {<Content/>}/>
           <Route path = 'rulesOfConductForStudents' element = {<Content/>}/>
-          <Route path = 'rightsAndObligationsOfParentsOrPersonsInLocoParentis' element = {<RightsAndObligationsOfParentsOrPersonsInLocoParentis/>} />
+          <Route path = 'rightsAndObligationsOfParentsOrPersonsInLocoParentis' element = {<RightsAndObligationsOfParentsOrPersonsInLocoParentis/>}/>
           <Route path = 'recommendationsForRaisingASuccessfulStudent' element = {<RecommendationsForRaisingASuccessfulStudent/>}/>
-          <Route path = 'educationalPrograms' element = {<Content/>}/>
+          <Route path = 'educationalPrograms' element = {<EducationalPrograms/>}/>
           <Route path = 'educationalProjects' element = {<Content/>}/>
           <Route path = 'olympics' element = {<Content/>}/>
           <Route path = 'competitions' element = {<Content/>}/>
@@ -67,7 +69,7 @@ function App() {
           <Route path = 'EIT/STA' element = {<Content/>}/>
           <Route path = 'distanceEducation' element = {<Content/>}/>
           <Route path = 'inclusiveEducation' element = {<Content/>}/>
-          <Route path = 'workOfThePsychologicalService' element = {<Content/>}/>
+          <Route path = 'workOfThePsychologicalService' element = {<WorkOfThePsychologicalService/>}/>
           <Route path = 'library' element = {<Content/>}/>
         </Routes>
       </div>
