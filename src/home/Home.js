@@ -1,4 +1,6 @@
 import style from './Home.module.scss'
+import { newsList } from './NotificationData';
+import Notifications from './Notifications.js'
 function Home() {
     return (
         <div className={style.styles}>
@@ -15,6 +17,13 @@ function Home() {
                 <p>Ми клянемося завжди уроки всі свої пам'ятать.</p>
                 <p>І здобуті знання, і сердець наших юних горіння</p>
                 <p>Україні своїй обіцяєм до краплі віддать!</p>
+            </div>
+            <div className="NotificationData">
+                <h1>Оповіщення</h1>
+                <hr></hr>
+                {newsList.map((news) => (
+                    <Notifications key={news.id} id={news.id} title={news.title} description={news.description} image={news.image} />
+                ))}
             </div>
         </div>
     )

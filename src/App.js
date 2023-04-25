@@ -10,9 +10,9 @@ import SchoolGoal from './pages/SchoolGoal';
 import Information from './information/Information';
 import AssessmentOfStudents from './pages/AssessmentOfStudents';
 import RulesFordAmission from './pages/RulesFordAmission';
-import { newsList } from './notifications/NotificationData';
-import Notifications from './notifications/Notifications';
-import NotificationsElem from './notifications/NotificationsElem';
+import { newsList } from './home/NotificationData';
+import Notifications from './home/Notifications';
+import NotificationsElem from './home/NotificationsElem';
 import Schedule from './schedule/Schedule';
 import StudentsRule from './pages/StudentsRule';
 import Traditions from './pages/Traditions';
@@ -73,13 +73,13 @@ function App() {
           <Route path = 'workOfThePsychologicalService' element = {<WorkOfThePsychologicalService/>}/>
           <Route path = 'library' element = {<Content/>}/>
         </Routes>
-        <div className="NotificationData">
+        {/* <div className="NotificationData">
         <h1>Оповіщення</h1>
         <hr></hr>
         {newsList.map((news) => (
           <Notifications key = {news.id} id = {news.id} title={news.title} description={news.description} image = {news.image} />
         ))}
-      </div>
+      </div> */}
       <Information />
       </div>
     </div>
