@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
 
 body {
   height: auto;
@@ -11,20 +11,21 @@ body {
 }
 
 * {
-  font-family: 'Kelly Slab', cursive;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 
 .NotificationData {
-  h1{
-    cursor:default;
+  h1 {
+    cursor: default;
   }
+
   background-color: white;
   height: fit-content;
   overflow: auto;
   width: 100%;
-  grid-area: notifications;
   border: 1px solid;
+
   h1 {
     color: black;
   }
@@ -35,12 +36,11 @@ body {
   height: 100%;
   background-color: #ffc5bd;
   display: grid;
-  grid-template-rows: 0.9fr auto 1fr;
-  grid-template-columns: 10fr 4fr;
+  grid-template-rows: 0.6fr 2fr;
   grid-template-areas:
-    "header header"
-    "content notifications"
-    "information information";
+    "header "
+    "content "
+    "information ";
 }
 
 .app-wrapper-content {
@@ -53,10 +53,10 @@ body {
 /* Style the dropdown button */
 .dropbtn {
   cursor: pointer;
-  background: #273878;
+  background: #0d1a5e;
   color: white;
   padding: 1rem;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
 }
 
@@ -83,7 +83,8 @@ body {
   display: none;
   z-index: 9999;
 }
-.dropdown:hover{
+
+.dropdown:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.4);
 
 }

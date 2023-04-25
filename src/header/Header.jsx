@@ -7,7 +7,7 @@ function Header() {
             <div className={style.logo}>
                 <img className={style.photo} width={150} height={190} src='/images/logo-removebg-preview.png' alt='log' />
                 <h1 className={style.text}>
-                    ШПИТЬКІВСЬКА ЗАГАЛЬНООСВІТНЯ ШКОЛА І-ІІІ СТУПЕНІВ ДМИТРІВСЬКОЇ СІЛЬСЬКОЇ РАДИ БУЧАНСЬКОГО РАЙОНУ КИЇВСЬКОЇ ОБЛАСТІ
+                Шпитьківський академічний ліцей «Скіф» Дмитрівської сільської ради Бучанського району Київської області
                 </h1>
             </div>
             <ul>

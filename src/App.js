@@ -73,8 +73,7 @@ function App() {
           <Route path = 'workOfThePsychologicalService' element = {<WorkOfThePsychologicalService/>}/>
           <Route path = 'library' element = {<Content/>}/>
         </Routes>
-      </div>
-      <div className="NotificationData">
+        <div className="NotificationData">
         <h1>Оповіщення</h1>
         <hr></hr>
         {newsList.map((news) => (
@@ -82,6 +81,7 @@ function App() {
         ))}
       </div>
       <Information />
+      </div>
     </div>
   );
 }

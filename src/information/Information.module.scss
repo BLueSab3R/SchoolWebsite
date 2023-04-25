@@ -5,7 +5,8 @@
 }
 
 .wrapper {
-    background: #273878;
+    font-size: 20px;
+    background: #232244;
     grid-area: information;
     display: flex;
     flex-direction: row;
@@ -30,7 +31,7 @@ h4 {
     padding-right: 9rem;
 }
 .number {
-    margin-left: 25rem;
+    margin-left: 23rem;
     float: right;
     color: white;
     cursor: default;
