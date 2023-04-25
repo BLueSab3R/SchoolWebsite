@@ -23,6 +23,8 @@ import RecommendationsForRaisingASuccessfulStudent from './pages/Recommendations
 import RightsAndObligationsOfParentsOrPersonsInLocoParentis from './pages/RightsAndObligationsOfParentsOrPersonsInLocoParentis';
 import WorkOfThePsychologicalService from './pages/WorkOfThePsychologicalService';
 import EducationalPrograms from './pages/EducationalPrograms';
+import Olympics from './pages/Olympics';
+import EducationalProjects from './pages/EducationalProjects';
 function App() {
   return (
     <div className='wrapper clear'>
@@ -53,7 +55,7 @@ function App() {
           <Route path = 'rulesOfBehaviorDuringTheHolidays' element = {<Content/>}/>
           <Route path = 'studentSelf-government' element = {<Content/>}/>
           <Route path = 'nationalAndPatrioticEducation' element = {<Content/>}/>  
-          <Route path = 'educationalProjects' element = {<Content/>}/>
+          <Route path = 'educationalProjects' element = {<EducationalProjects/>}/>
           <Route path = 'legalEducationAndPreventionOfBadHabitsAndDeviantBehaviorOfChildren' element = {<Content/>}/>
           <Route path = 'formationOfBehaviorOfCorrectSecurityActionsInConditionsOfMartialLaw' element = {<Content/>}/>
           <Route path = 'counteringBullying' element = {<Content/>}/>
@@ -61,8 +63,7 @@ function App() {
           <Route path = 'rightsAndObligationsOfParentsOrPersonsInLocoParentis' element = {<RightsAndObligationsOfParentsOrPersonsInLocoParentis/>}/>
           <Route path = 'recommendationsForRaisingASuccessfulStudent' element = {<RecommendationsForRaisingASuccessfulStudent/>}/>
           <Route path = 'educationalPrograms' element = {<EducationalPrograms/>}/>
-          <Route path = 'educationalProjects' element = {<Content/>}/>
-          <Route path = 'olympics' element = {<Content/>}/>
+          <Route path = 'olympics' element = {<Olympics/>}/>
           <Route path = 'competitions' element = {<Content/>}/>
           <Route path = 'workingWithGiftedStudents' element = {<Content/>}/>
           <Route path = 'ourPride' element = {<Content/>}/>
