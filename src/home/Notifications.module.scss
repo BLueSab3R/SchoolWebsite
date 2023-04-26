@@ -1,14 +1,3 @@
-.notificationDetails {
-    border-bottom: 1px solid #ccc;
-    h2 {
-        font-size: 14px;
-    }
-}
-
-.notList {
-    background-color: white;
-}
-
 .imgList {
     height: 100%;
     position: relative;
@@ -52,9 +41,34 @@ img {
 
 .leftIcon,
 .rightIcon {
-  cursor: pointer;
-  user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+
+.notification {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+
+
+.notificationDetails {
+    padding: 1rem;
+}
+
+.notificationDetails h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.notificationDetails p {
+    margin-top: 0;
 }

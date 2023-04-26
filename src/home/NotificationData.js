@@ -1,3 +1,4 @@
+
 export const newsList = [
   {
     id: 1,
@@ -19,6 +20,48 @@ export const newsList = [
       '/news/forest12.jpg',
       '/news/forest13.jpg',
     ]
+  },
+  {
+    id: 2,
+    title: 'News 2',
+    description: 'This is the second news item.',
+    content: 'Test 2'
+  },
+  {
+    id: 2,
+    title: 'News 2',
+    description: 'This is the second news item.',
+    content: 'Test 2'
+  },
+  {
+    id: 2,
+    title: 'News 2',
+    description: 'This is the second news item.',
+    content: 'Test 2'
+  },
+  {
+    id: 2,
+    title: 'News 2',
+    description: 'This is the second news item.',
+    content: 'Test 2'
+  },
+  {
+    id: 2,
+    title: 'News 2',
+    description: 'This is the second news item.',
+    content: 'Test 2'
+  },
+  {
+    id: 2,
+    title: 'News 2',
+    description: 'This is the second news item.',
+    content: 'Test 2'
+  },
+  {
+    id: 2,
+    title: 'News 2',
+    description: 'This is the second news item.',
+    content: 'Test 2'
   },
   {
     id: 2,

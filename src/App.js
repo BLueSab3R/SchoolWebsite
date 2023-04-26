@@ -10,8 +10,7 @@ import SchoolGoal from './pages/SchoolGoal';
 import Information from './information/Information';
 import AssessmentOfStudents from './pages/AssessmentOfStudents';
 import RulesFordAmission from './pages/RulesFordAmission';
-import { newsList } from './home/NotificationData';
-import Notifications from './home/Notifications';
+
 import NotificationsElem from './home/NotificationsElem';
 import Schedule from './schedule/Schedule';
 import StudentsRule from './pages/StudentsRule';

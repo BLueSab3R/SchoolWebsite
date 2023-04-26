@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './Notifications.module.scss';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
 function NotificationDetails({ title, description, id, image}) {
   return (
-    <div className={style.notList}>
+    <div className={style.notification}>
       <div className={style.notificationDetails}>
         <Link to={`notification/${id}`}>
           <h2>{title}</h2>
@@ -14,4 +15,4 @@ function NotificationDetails({ title, description, id, image}) {
   );
 }
 
-export default NotificationDetails; 
+export default NotificationDetails;

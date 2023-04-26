@@ -1,18 +1,70 @@
-.content{
+.content {
     grid-area: content;
 }
 
-.styles{
-    p{
+.styles {
+    p {
         text-align: center;
         justify-content: center;
         font-size: 17px;
     }
-    
-    h4{        
+
+    h4 {
         text-align: center;
     }
 }
 
+.notificationDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-bottom: auto;
+}
 
+.notificationDetails>* {
+    width: 15rem;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
 
+.notificationData {
+    height: 100%;
+
+    h1 {
+        cursor: default;
+        color: black;
+    }
+}
+
+.pagination ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination li {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.pagination a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #ccc;
+}
+
+.pagination .active {
+    background-color: #000;
+    color: #fff;
+}
