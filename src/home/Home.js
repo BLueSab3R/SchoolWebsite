@@ -3,6 +3,7 @@ import style from './Home.module.scss'
 import { newsList } from './NotificationData';
 import Notifications from './Notifications';
 import Pagination from './Pagination';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Home() {
   const [newsPerPage] = useState(4);
