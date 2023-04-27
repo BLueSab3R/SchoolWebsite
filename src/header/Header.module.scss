@@ -1,27 +1,31 @@
 .logo{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-right: 10rem;
 }
 .photo{
-    margin-right: 1rem;
+    margin-right: 19rem;
+
 
 }
 .text{
-    margin-right: 1rem;
     text-align: center;
+
 }
 h1{
     color: white;
 }
 .header {
-    height: 100%;
+    background-image: url('flag.jpeg');
+    background-size: 100% 100%;
     position: sticky;
-    background: #0d1a5e;
     grid-area: header;
-
 }
 
+.name{
+    margin-bottom:0.5rem ;
+   justify-content: center;
+}
 
-
+.text{
+    font-size: 21px;
+}

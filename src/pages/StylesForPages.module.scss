@@ -56,3 +56,82 @@
 .links:active {
     color: darken($color: #021a48, $amount: 10)
 }
+
+
+
+
+.nusWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "t l";
+    grid-gap: 1rem;
+}
+
+.text {
+    margin-left: 3rem;
+    grid-area: t;
+}
+
+.photo {
+    width: 19.5rem;
+    height: 19.5rem;
+    margin: 0 auto;
+    display: block;
+    cursor: default;
+}
+
+.link {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    grid-area: l;
+    color: #7d9fe8;
+    display: flex;
+    flex-direction: column;
+    h3{
+        color: black;
+        font-size: 30px;
+    }
+    a {
+        &:hover {
+            color: lighten($color: #021a48, $amount: 1)
+        }
+
+        &:active {
+            color: darken($color: #021a48, $amount: 10)
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .nusWrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas: "t""l";
+    }
+}
+
+.components {
+    border: 0.1px solid;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+    li {
+        padding: 0.5rem;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    ul {
+        margin: 0.5rem 0 1rem 0;
+        column-count: 2;
+        column-gap: 20px;
+    }
+
+    .line {
+        border-bottom: 1px solid #ccc;
+    }
+}

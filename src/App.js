@@ -24,6 +24,7 @@ import WorkOfThePsychologicalService from './pages/WorkOfThePsychologicalService
 import EducationalPrograms from './pages/EducationalPrograms';
 import Olympics from './pages/Olympics';
 import EducationalProjects from './pages/EducationalProjects';
+import Nus from './pages/Nus';
 function App() {
   return (
     <div className='wrapper clear'>
@@ -71,6 +72,8 @@ function App() {
           <Route path = 'inclusiveEducation' element = {<Content/>}/>
           <Route path = 'workOfThePsychologicalService' element = {<WorkOfThePsychologicalService/>}/>
           <Route path = 'library' element = {<Content/>}/>
+          <Route path = 'nus' element = {<Nus/>}/>
+
         </Routes>
         {/* <div className="NotificationData">
         <h1>Оповіщення</h1>

@@ -28,45 +28,22 @@ export const newsList = [
     content: 'Test 2'
   },
   {
-    id: 2,
-    title: 'News 2',
+    id: 3,
+    title: 'News 3',
     description: 'This is the second news item.',
-    content: 'Test 2'
+    content: 'Test 3'
   },
   {
-    id: 2,
-    title: 'News 2',
+    id: 4,
+    title: 'News 4',
     description: 'This is the second news item.',
-    content: 'Test 2'
+    content: 'Test 4'
   },
   {
-    id: 2,
-    title: 'News 2',
+    id: 5,
+    title: 'News5',
     description: 'This is the second news item.',
-    content: 'Test 2'
+    content: 'Test 5'
   },
-  {
-    id: 2,
-    title: 'News 2',
-    description: 'This is the second news item.',
-    content: 'Test 2'
-  },
-  {
-    id: 2,
-    title: 'News 2',
-    description: 'This is the second news item.',
-    content: 'Test 2'
-  },
-  {
-    id: 2,
-    title: 'News 2',
-    description: 'This is the second news item.',
-    content: 'Test 2'
-  },
-  {
-    id: 2,
-    title: 'News 2',
-    description: 'This is the second news item.',
-    content: 'Test 2'
-  },
+  
 ];

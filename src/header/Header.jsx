@@ -5,10 +5,22 @@ function Header() {
     return (
         <div className={style.header}>
             <div className={style.logo}>
-                <img className={style.photo} width={150} height={190} src='/images/logo-removebg-preview.png' alt='log' />
-                <h1 className={style.text}>
-                Шпитьківський академічний ліцей «Скіф» Дмитрівської сільської ради Бучанського району Київської області
-                </h1>
+                <img className={style.photo} width={30} height={30} src='/images/logo.png' alt='log' />
+                <div className={style.name}>
+                    <h1 className={style.text}>
+                        Шпитьківський академічний ліцей «Скіф»
+                    </h1>
+                    <h1 className={style.text}>
+                        Дмитрівської сільської ради
+                    </h1>
+                    <h1 className={style.text}>
+                        Бучанського району
+                    </h1>
+                    <h1 className={style.text}>
+                        Київської області
+                    </h1>
+                </div>
+
             </div>
             <ul>
                 <li>
@@ -30,11 +42,16 @@ function Header() {
                             <Link to='rulesFordAmission'>Правила прийому до першого класу</Link>
                             <Link to='studentsRule'>Права і обов'язки учнів</Link>
                             <Link to='personalDataProtection'>Захист персональних даних</Link>
-                            <Link to='clubsAndSections'>Гуртки та секції</Link>
                         </div>
                     </div>
                     <div className="dropdown">
-                         <button className="dropbtn">Безпечне оствітнє середовище</button> 
+                        <Link to='/'> <button className="dropbtn">Освітня діяльність</button> </Link>
+                        <div className="dropdown-content">
+                            <Link to='nus'>Нова українська школа</Link>
+                        </div>
+                    </div>
+                    <div className="dropdown">
+                        <button className="dropbtn">Безпечне оствітнє середовище</button>
                         <div className="dropdown-content">
                             <Link to='protectionOfChildrensRights'>Охорона прав дитини</Link>
                             <Link to='preventionOfInjuriesDuringTheEducationalProcess'>Профілактика і попередження травматизму під час освітнього процесу</Link>
@@ -44,7 +61,7 @@ function Header() {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <button className="dropbtn">Виховна робота</button> 
+                        <button className="dropbtn">Виховна робота</button>
                         <div className="dropdown-content">
                             <Link to='studentSelf-government'>Учнівське самоврядування</Link>
                             <Link to='nationalAndPatrioticEducation'>Національно-патріотичне виховання</Link>
@@ -60,14 +77,14 @@ function Header() {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <button className="dropbtn">Для батьків</button> 
+                        <button className="dropbtn">Для батьків</button>
                         <div className="dropdown-content">
                             <Link to='rightsAndObligationsOfParentsOrPersonsInLocoParentis'>Права та обов'язки батьків, або осіб, що їх заміняють</Link>
                             <Link to='recommendationsForRaisingASuccessfulStudent'>Рекомендації щодо виховання успішного школяра</Link>
                         </div>
                     </div>
                     <div className="dropdown">
-                         <button className="dropbtn">Навчально-методична робота</button> 
+                        <button className="dropbtn">Методична робота</button>
                         <div className="dropdown-content">
                             <Link to='educationalPrograms'>Освітні програми</Link>
                             <Link to='educationalProjects'>Освітні проекти - 'Єдина школа'</Link>
@@ -81,14 +98,35 @@ function Header() {
                             <Link to='inclusiveEducation'>Інклюзивне навчання</Link>
                         </div>
                     </div>
-                    <div className='schedule'>
-                        <Link to='workOfThePsychologicalService'> <button className="dropbtn">Робота психологічної служби</button> </Link>
+                    <div className="dropdown">
+                        <Link to='/'> <button className="dropbtn">Початкова школа 1 - 4 класи</button> </Link>
+                        <div className="dropdown-content">
+                        </div>
+                    </div>
+                    <div className="dropdown">
+                        <Link to='/'> <button className="dropbtn">Позашкілля</button> </Link>
+                        <div className="dropdown-content">
+                            <Link to='clubsAndSections'>Гуртки та секції</Link>
+
+                        </div>
+                    </div>
+                    <div className="dropdown">
+                        <Link to='/'> <button className="dropbtn">Харчування</button> </Link>
+                        <div className="dropdown-content">
+                        </div>
+                    </div>
+                    <div className='dropdown'>
+                        <Link to='workOfThePsychologicalService'> <button className="dropbtn">Робота соціально-психологічної служби</button> </Link>
+                    </div>
+                    <div className='dropdown'>
+                        <button className="dropbtn">Бібліотека</button>
+                        <div className="dropdown-content">
+                            <Link to=''>Наші бібліотекарі</Link>
+                            <Link to=''>Електронні підручники</Link>
+                        </div>
                     </div>
                     <div className='schedule'>
-                        <Link to='library'> <button className="dropbtn">Бібліотека</button> </Link>
-                    </div>
-                    <div className='schedule'>
-                        <Link to='schedule'> <button className="dropbtn">Розклад</button> </Link>
+                        <Link to='schedule'> <button className="dropbtn">Єдина школа</button> </Link>
                     </div>
                 </li>
             </ul>
