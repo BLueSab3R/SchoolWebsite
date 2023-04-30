@@ -35,7 +35,7 @@ function Header() {
                             <Link to='traditions'>Наші традиції</Link>
                         </div>
                     </div>
-                    {/* <div className="dropdown">
+                    <div className="dropdown">
                         <button className="dropbtn">Інформаційна відкритість та прозорість</button>
                         <div className="dropdown-content">
                             <Link to='assessmentOfStudents'>Оцінювання здобувачів освіти</Link>
@@ -124,7 +124,7 @@ function Header() {
                             <Link to=''>Наші бібліотекарі</Link>
                             <Link to=''>Електронні підручники</Link>
                         </div>
-                    </div> */}
+                    </div>
                     <div className='schedule'>
                         <Link to='schedule'> <button className="dropbtn">Єдина школа</button> </Link>
                     </div>

@@ -56,24 +56,16 @@ const Nus = () => {
                         Концепції Нової української школи
                     </a>
                     <a
-                        href='https://mon.gov.ua/storage/app/media/zagalna%20serednya/programy-1-4-klas/2022/08/15/Typova.osvitnya.prohrama.1-4/Typova.osvitnya.prohrama.1-2.Savchenko.pdf'
-                        target='_blank'
-                    >
-                        Типова освітня програма,
-                        розроблена під керівництвом Савченко О. Я.
-
-                    </a>
-                    <a
                         href='https://imzo.gov.ua/2021/07/15/nakaz-mon-vid-13-07-2021-813-pro-zatverdzhennia-metodychnykh-rekomendatsiy-shchodo-otsiniuvannia-rezul-tativ-navchannia-uchniv-1-4-klasiv-zakladiv-zahal-noi-seredn-oi-osvity/'
                         target='_blank'
                     >
                         Наказ
                     </a>
                     <a
-                        href='https://mon.gov.ua/storage/app/media/zagalna%20serednya/programy-1-4-klas/2022/08/15/Typova.osvitnya.prohrama.1-4/Typova.osvitnya.prohrama.3-4.Savchenko.pdf'
+                        href='https://zakon.rada.gov.ua/laws/show/87-2018-%D0%BF#Text'
                         target='_blank'
                     >
-                    Типова освітня програма, розроблена під керівництвом Савченко О. Я. 3-4 клас
+                    Про затвердження Державного стандарту початкової освіти
                     </a>
                 </div>
             </div>
