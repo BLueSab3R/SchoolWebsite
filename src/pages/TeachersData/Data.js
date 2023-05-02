@@ -1,6 +1,6 @@
 const teachers = [
     {
-        name: 'Грищенко Ольга Миколаївна',
+        name: 'Грищенко Ольга Михайлівна',
         src: 'teachers/1.jpg'
     },
     {
