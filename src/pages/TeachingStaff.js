@@ -6,10 +6,14 @@ function TeachingStaff() {
         <div className={style.styles}>
             <div className={style.teachers}>
                 <div className={style.teachersCard}>
-                    {teachers.map(({ name, src }, index) => (
+                    {teachers.map(({ name, src }) => (
                         <div key={name} className={style.teacherCard}>
                             <img src={`${process.env.PUBLIC_URL}${src}`} alt={name} />
-                            <span>{name}</span>
+                            {name === 'Богата Олександра Миколаївна' ? (
+                                <p>{name}
+                                     <p>вчитель української мови та літератури, спеціаліст вищої категорії, учитель-методист</p>
+                                </p>
+                            ) : (<span>{name}</span>)}
                         </div>
                     ))}
                 </div>
