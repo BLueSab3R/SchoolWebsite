@@ -144,27 +144,26 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    .teacherCard {
-        border: 1px solid #1e1b1b;
-        padding: 1rem;
+  
+    .teachersCard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      .teacherCard {
+        box-sizing: border-box;
+        border: 1px solid black;
         border-radius: 1rem;
+        padding: 10px;
+        margin: 10px;
+        width: 25rem;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        width: 40rem;
-        height: 24rem;
-        margin-top: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-        &:hover {
-            color: darken($color: #000000, $amount: 90);
+        img {
+          max-width: 100%;
+          height: auto;
         }
-        img{
-            height: 23rem;
-        }
-        span,p {
-            font-size: 1.5rem;
-            // margin-left: 1rem;
-        }
+      }
     }
-}
+  }
