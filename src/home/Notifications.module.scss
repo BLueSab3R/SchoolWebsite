@@ -50,6 +50,7 @@ img {
 
 
 .notification {
+    cursor: default;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -58,6 +59,9 @@ img {
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     overflow: hidden;
+    &:hover{
+        color: darken($color: #000000, $amount: 1);
+    }
 }
 
 

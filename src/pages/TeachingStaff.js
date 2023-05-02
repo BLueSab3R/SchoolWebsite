@@ -1,34 +1,20 @@
 import style from './StylesForPages.module.scss'
+import teachers from './TeachersData/Data';
+
 function TeachingStaff() {
     return (
         <div className={style.styles}>
-            <div className={style.photo}>
-                <img height={300} width={400} src="/images/teachers.jpg" alt="teachers" />
+            <div className={style.teachers}>
+                <div className={style.teachersCard}>
+                    {teachers.map(({ name, src }, index) => (
+                        <div key={name} className={style.teacherCard}>
+                            <img src={`${process.env.PUBLIC_URL}${src}`} alt={name} />
+                            <span>{name}</span>
+                        </div>
+                    ))}
+                </div>
+
             </div>
-            <h4>Директор школи: Лич Інна Валентинівна</h4>
-            <h4>Заступник директора з навчально-виховної роботи: Данилюк Олександра Михайлівна</h4>
-            <h4>Заступник директора з навчально-виховної роботи молодших класів: Федоренко Олена Василівна            </h4>
-            <h4>Заступник директора з виховної роботи: Грищенко Олена Іванівна</h4>
-            <h3>Наші вчителі</h3>
-            <ul>
-                <li>
-                    Загальна кількість педагогічних працівників – 46
-                </li>
-                <li>з них вчителів, які є випускниками школи -20</li>
-                <li>Вчитель методист – 6;</li>
-                <li>Старший учитель – 11;
-                </li>
-                <li>Вчителів вищої кваліфікаційної категорії – 27;
-                </li>
-                <li>І кваліфікаційної категорії – 2;
-                </li>
-                <li>ІІ кваліфікаційної категорії – 4;
-                </li>
-                <li>Категорії «спеціаліст» - 10;
-                </li>
-                <li>Переможців та лауреатів районного та обласного конкурсу «Учитель року» - 10.
-                </li>
-            </ul>
         </div>
     )
 }

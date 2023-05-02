@@ -87,10 +87,12 @@
     color: #7d9fe8;
     display: flex;
     flex-direction: column;
-    h3{
+
+    h3 {
         color: black;
         font-size: 30px;
     }
+
     a {
         &:hover {
             color: lighten($color: #021a48, $amount: 1)
@@ -133,5 +135,36 @@
 
     .line {
         border-bottom: 1px solid #ccc;
+    }
+}
+
+
+.teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+    .teacherCard {
+        border: 1px solid #1e1b1b;
+        padding: 1rem;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 24rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        &:hover {
+            color: darken($color: #000000, $amount: 90);
+        }
+        img{
+            height: 23rem;
+        }
+        span {
+            font-size: 1.5rem;
+            // margin-left: 1rem;
+        }
     }
 }
