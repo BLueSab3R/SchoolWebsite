@@ -9,14 +9,10 @@ function Header() {
                 <div className={style.name}>
                     <h1 className={style.text}>
                         Шпитьківський академічний ліцей «Скіф»
-                    </h1>
-                    <h1 className={style.text}>
                         Дмитрівської сільської ради
                     </h1>
                     <h1 className={style.text}>
                         Бучанського району
-                    </h1>
-                    <h1 className={style.text}>
                         Київської області
                     </h1>
                 </div>
@@ -25,20 +21,18 @@ function Header() {
             <ul>
                 <li>
                     <div className="dropdown">
-                        <Link to='/'> <button className="dropbtn">Головна</button> </Link>
+                        <Link to='/'> <button className="dropbtn">ГОЛОВНА</button> </Link>
                         <div className="dropdown-content">
-                            <Link to='schoolHistory'>Історія школи</Link>
-                            <Link to='teachingstaff'>Педагогічний колектив</Link>
-                            <Link to='lyceumTarget'>Місія ліцею</Link>
-                            <Link to='schoolGoal'>Мета</Link>
-                            <Link to='visionary'>Візія</Link>
-                            <Link to='traditions'>Наші традиції</Link>
+                            <Link to='schoolHistory'>ІСТОРІЯ</Link>
+                            <Link to='teachingstaff'>ДИРЕКТОР</Link>
+                            <Link to='lyceumTarget'>ЗАСТУПНИКИ</Link>
+                            <Link to='teachingstaff'>ПЕДАГОГІЧНИЙ КОЛЕКТИВ</Link>
                         </div>
                     </div>
                     <div className="dropdown">
-                        <button className="dropbtn">Інформаційна відкритість та прозорість</button>
+                        <button className="dropbtn">ІНФОРМАЦІЙНА ВІДКРИТІСТЬ ТА ПРОЗОРІСТЬ</button>
                         <div className="dropdown-content">
-                            <Link to='assessmentOfStudents'>Оцінювання здобувачів освіти</Link>
+                            <Link to='assessmentOfStudents'>ОЦІНЮВАННЯ ЗДОБУВАЧІВ освіти</Link>
                             <Link to='rulesFordAmission'>Правила прийому до першого класу</Link>
                             <Link to='studentsRule'>Права і обов'язки учнів</Link>
                             <Link to='personalDataProtection'>Захист персональних даних</Link>
