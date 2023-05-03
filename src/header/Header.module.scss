@@ -1,31 +1,42 @@
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
-.photo{
-    margin-right: 19rem;
 
-
+.photo1 {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    bottom: -1;
+    right: 0;
+    transform: rotate(-20deg);
+    overflow: hidden;
+    width: 80%;
 }
-.text{
+
+.text {
+    font-size: 10px;
     text-align: center;
-
 }
-h1{
+
+h1 {
+    font-size: 10px;
     color: white;
 }
+
 .header {
-    // background-image: url('flag.jpeg');
+    background-color: #273878;
     background-size: 100% 100%;
+    background-position: center center;
     position: sticky;
     grid-area: header;
 }
 
-.name{
-    margin-bottom:0.5rem ;
-   justify-content: center;
+
+.name {
+    justify-content: center;
 }
 
-.text{
-    font-size: 21px;
+.text {
+    font-size: 43px;
 }

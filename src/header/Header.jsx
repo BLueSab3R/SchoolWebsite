@@ -16,7 +16,6 @@ function Header() {
                         Київської області
                     </h1>
                 </div>
-
             </div>
             <ul>
                 <li>
@@ -24,8 +23,8 @@ function Header() {
                         <Link to='/'> <button className="dropbtn">ГОЛОВНА</button> </Link>
                         <div className="dropdown-content">
                             <Link to='schoolHistory'>ІСТОРІЯ</Link>
-                            <Link to='teachingstaff'>ДИРЕКТОР</Link>
-                            <Link to='lyceumTarget'>ЗАСТУПНИКИ</Link>
+                            <Link to='/'>ДИРЕКТОР</Link>
+                            <Link to='/'>ЗАСТУПНИКИ</Link>
                             <Link to='teachingstaff'>ПЕДАГОГІЧНИЙ КОЛЕКТИВ</Link>
                         </div>
                     </div>
@@ -93,12 +92,7 @@ function Header() {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <Link to='/'> <button className="dropbtn">Початкова школа 1 - 4 класи</button> </Link>
-                        <div className="dropdown-content">
-                        </div>
-                    </div>
-                    <div className="dropdown">
-                        <Link to='/'> <button className="dropbtn">Позашкілля</button> </Link>
+                        <Link to='/'> <button className="dropbtn">ПОЗАШКІЛЛЯ</button> </Link>
                         <div className="dropdown-content">
                             <Link to='clubsAndSections'>Гуртки та секції</Link>
 
@@ -120,7 +114,7 @@ function Header() {
                         </div>
                     </div>
                     <div className='schedule'>
-                        <Link to='schedule'> <button className="dropbtn">Єдина школа</button> </Link>
+                        <Link to='schedule'> <button className="dropbtn">ЄДИНА ШКОЛА</button> </Link>
                     </div>
                 </li>
             </ul>

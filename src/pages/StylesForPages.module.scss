@@ -89,6 +89,7 @@
     flex-direction: column;
 
     h3 {
+        margin-top: 2.8rem;
         color: black;
         font-size: 30px;
     }
@@ -111,31 +112,65 @@
     }
 }
 
-.components {
-    border: 0.1px solid;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* змінено */
+    grid-template-rows: auto auto auto;
     gap: 1rem;
-    justify-content: center;
+    height: 40rem;
+    align-items: flex-start;
+}
 
-    li {
-        padding: 0.5rem;
-    }
+.line {
+    grid-column: 1 / -1;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
 
-    h3 {
-        text-align: center;
-    }
+.components {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 0.1px solid;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
 
-    ul {
-        margin: 0.5rem 0 1rem 0;
-        column-count: 2;
-        column-gap: 20px;
-    }
+.components ul {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
-    .line {
-        border-bottom: 1px solid #ccc;
-    }
+.components li {
+    font-size: 15px;
+
+    margin-bottom: 0;
+    padding: 0.5rem;
+    line-height: 1rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.comp{
+    height: 28rem;
+    width: 20rem;
+}
+
+
+
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.idk p {
+    font-size: 26px;
 }
 
 .teachers {
@@ -149,7 +184,6 @@
         justify-content: space-between;
         width: 100%;
         max-width: 1000px;
-
         .teacherCard {
             box-sizing: border-box;
             border: 1px solid black;
@@ -157,18 +191,17 @@
             padding: 10px;
             width: calc(33.33% - 20px);
             margin: 3px 10px;
-
             flex-grow: 1;
             flex-shrink: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
             line-height: 0.9;
-
-            img {
-                max-width: 100%;
-                height: auto;
+            img{
+                height: 95%;
+                width: 95%;
             }
+  
         }
     }
 }

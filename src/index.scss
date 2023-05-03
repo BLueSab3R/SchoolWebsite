@@ -35,10 +35,10 @@ body {
 
 /* Style the dropdown button */
 .dropbtn {
+  
   cursor: pointer;
   background-color: rgba(0,0,0,0);
-  // background: #0d1a5e;
-  color: black;
+  color: white;
   padding: 1rem;
   font-size: 20px;
   border: none;
@@ -58,6 +58,8 @@ body {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  color: white;
+
   position: absolute;
   height: 100%;
   overflow: auto;
@@ -75,11 +77,10 @@ body {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  background-color: white;
+  background-color: #273878;
 }
 
 /* Change color of dropdown links on hover */

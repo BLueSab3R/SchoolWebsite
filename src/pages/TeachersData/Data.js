@@ -47,7 +47,64 @@ const teachers = [
     {
         name: 'Поплавська Наталія Анатоліївна',
         src: 'teachers/12.jpg'
-    }
+    },
+    {
+        name: 'Бабченко Олександр Григорович',
+        src: 'teachers/13.jpg'
+    },
+
+    {
+        name: 'Бердій Олена Анатоліївна',
+        src: 'teachers/14.jpg'
+    },
+
+    {
+        name: 'Бондарєва Вікторія Олександрівна',
+        src: 'teachers/15.jpg'
+    },
+
+    {
+        name: 'Вишняк Влада Юріївна',
+        src: 'teachers/16.jpg'
+    },
+
+    {
+        name: 'Грищенко Лариса Петрівна',
+        src: 'teachers/17.jpg'
+    },
+
+    {
+        name: 'Козюн Лариса Володимирівна',
+        src: 'teachers/18.jpg'
+    },
+    {
+        name: 'Медвідь Вікторія Валентинівна',
+        src: 'teachers/19.jpg'
+    }, 
+    {
+        name: 'Подлевський Роман Васильович',
+        src: 'teachers/20.jpg'
+    },
+
+    {
+        name: 'Руденко Юлія Олександрівна',
+        src: 'teachers/21.jpg'
+    },
+
+    {
+        name: `Халматова Дар'я Сергіївна`,
+        src: 'teachers/22.jpg'
+    },
+
+    {
+        name: 'Штифурко Анеліна Василівна',
+        src: 'teachers/23.jpg'
+    },
+
+    {
+        name: 'Халматов Денис Валерійович',
+        src: 'teachers/24.jpg'
+    },
 
 ];
 export default teachers
