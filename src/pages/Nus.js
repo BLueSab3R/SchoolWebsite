@@ -53,6 +53,18 @@ const Nus = () => {
                     <img className={style.photo} src='/images/nushLogo.jpg' alt='log' />
                     <h3>Посилання</h3>
                     <a
+                        href='https://zakon.rada.gov.ua/laws/show/651-14#Text'
+                        target='_blank'
+                    >
+                        Закон України про загальну середню освіту
+                    </a>
+                    <a
+                        href='https://zakon.rada.gov.ua/laws/show/2145-19#Text'
+                        target='_blank'
+                    >
+                        Закон України про освіту
+                    </a>
+                    <a
                         href='https://mon.gov.ua/storage/app/media/zagalna%20serednya/nova-ukrainska-shkola-compressed.pdf'
                         target='_blank'
                     >
@@ -64,14 +76,8 @@ const Nus = () => {
                     >
                         Наказ МОН від 13.07.2021 № 813 “Про затвердження методичних рекомендацій щодо оцінювання результатів навчання учнів 1-4 класів закладів загальної середньої освіти”
                     </a>
-                    <a
-                        href='https://zakon.rada.gov.ua/laws/show/87-2018-%D0%BF#Text'
-                        target='_blank'
-                    >
-                        Про затвердження Державного стандарту початкової освіти
-                    </a>
-                    <img className={style.photoW} width={450} height={450} src='/images/nushCompetits.png' />
 
+                    <img className={style.photoW} width={450} height={450} src='/images/nushCompetits.png' />
                 </div>
             </div>
         </div>
