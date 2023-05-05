@@ -48,9 +48,6 @@ const Nus = () => {
                             </ul>
                         </div>
                     </div>
-
-
-                    <img className={style.comp} src='/images/nushCompetits.png' />
                 </div>
                 <div className={style.link}>
                     <img className={style.photo} src='/images/nushLogo.jpg' alt='log' />
@@ -73,6 +70,8 @@ const Nus = () => {
                     >
                         Про затвердження Державного стандарту початкової освіти
                     </a>
+                    <img className={style.photoW} width={450} height={450} src='/images/nushCompetits.png' />
+
                 </div>
             </div>
         </div>

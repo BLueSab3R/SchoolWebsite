@@ -2,8 +2,8 @@ import { useState } from 'react';
 import style from './Home.module.scss'
 import { newsList } from './NotificationData';
 import Notifications from './Notifications';
-import Pagination from './Pagination';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import Paginations from './Paginations';
+import SwiperSlider from './Swiper';
 
 function Home() {
   const [newsPerPage] = useState(4);
@@ -16,6 +16,7 @@ function Home() {
 
   return (
     <div className={style.styles}>
+      <SwiperSlider/>
       <div className={style.notificationData}>
         <h3>Оповіщення</h3>
         <div className={style.notificationDetails}>
@@ -25,13 +26,13 @@ function Home() {
         </div>
       </div>
       <div className={style.pagination}>
-        <Pagination
+        <Paginations
           newsPerPage={newsPerPage}
           totalNews={newsList.length}
           paginate={paginate}
         />
       </div>
-    </div>
+    </div >
   );
 }
 

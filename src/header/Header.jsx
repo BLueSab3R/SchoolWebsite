@@ -9,9 +9,10 @@ function Header() {
                 <div className={style.name}>
                     <h1 className={style.text}>
                         Шпитьківський академічний ліцей «Скіф»
-                        Дмитрівської сільської ради
+
                     </h1>
                     <h1 className={style.text}>
+                        Дмитрівської сільської ради
                         Бучанського району
                         Київської області
                     </h1>
@@ -23,8 +24,7 @@ function Header() {
                         <Link to='/'> <button className="dropbtn">ГОЛОВНА</button> </Link>
                         <div className="dropdown-content">
                             <Link to='schoolHistory'>ІСТОРІЯ</Link>
-                            <Link to='/'>ДИРЕКТОР</Link>
-                            <Link to='/'>ЗАСТУПНИКИ</Link>
+                            <Link to='/'>АДМІНІСТРАЦІЯ</Link>
                             <Link to='teachingstaff'>ПЕДАГОГІЧНИЙ КОЛЕКТИВ</Link>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ function Header() {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <Link to='/'> <button className="dropbtn">Освітня діяльність</button> </Link>
+                        <Link to='/'> <button className="dropbtn">ОСВІТНЯ ДІЯЛЬНІСТЬ</button> </Link>
                         <div className="dropdown-content">
                             <Link to='nus'>Нова українська школа</Link>
                         </div>

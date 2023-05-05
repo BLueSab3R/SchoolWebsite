@@ -34,6 +34,7 @@
 
 .notificationData {
     height: 100%;
+
     h1 {
         cursor: default;
     }
@@ -67,4 +68,15 @@
 .pagination .active {
     background-color: #000;
     color: #fff;
+}
+
+
+.slider {
+    width: 500px;
+    height: 300px;
+}
+
+.mySlide{
+    width: 100px;
+    height: 50px;
 }
