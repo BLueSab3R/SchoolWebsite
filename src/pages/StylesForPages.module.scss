@@ -9,7 +9,7 @@
     cursor: default;
 }
 
-.photoW{
+.photoW {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +20,7 @@
     display: block;
     cursor: default;
 }
+
 .text {
     justify-content: center;
 }
@@ -82,9 +83,7 @@
 }
 
 
-.photo {
-
-}
+.photo {}
 
 .link {
     display: flex;
@@ -190,19 +189,25 @@
     font-size: 21px;
     width: 100%;
     height: 100%;
+
     h3 {
         text-align: center;
     }
+
     height: auto;
 }
 
 .idk {
     width: 100%;
-    height: 100%;
-    height: 15rem;
-    line-height: 1.5rem;
+    height: 10rem;
+    line-height: 2rem;
     text-align: justify;
-    margin-bottom: 6rem;
+    margin-bottom: 11rem;
+
+    p {
+        font-size: 21px;
+
+    }
 }
 
 .teachers {
