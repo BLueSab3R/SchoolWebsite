@@ -213,7 +213,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
 
     .teachersCard {
         display: flex;
@@ -228,14 +227,12 @@
             border-radius: 1rem;
             padding: 10px;
             width: calc(33.33% - 20px);
-            margin: 10px;
             flex-grow: 1;
             flex-shrink: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
             line-height: 0.9;
-
             img {
                 height: auto;
                 width: 100%;
