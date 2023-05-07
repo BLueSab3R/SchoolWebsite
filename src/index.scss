@@ -18,12 +18,14 @@ body {
 }
 .swiper{
   position: fixed;
-  width: 100vw;
+  width: 98.9vw;
   height: 80vh;
   top: 0;
   left: 0;
   margin-top: 1rem;
   z-index: 0;
+  overflow: hidden;
+
 }
 .swiper-slide {
   text-align: center;

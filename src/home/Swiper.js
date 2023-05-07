@@ -18,7 +18,7 @@ export default function App() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -37,6 +37,8 @@ export default function App() {
         <SwiperSlide><img src="slider/7.jpg"></img></SwiperSlide>
         <SwiperSlide><img src="slider/8.jpg"></img></SwiperSlide>
         <SwiperSlide><img src="slider/9.jpg"></img></SwiperSlide>
+        <SwiperSlide><img src="slider/10.jpg"></img></SwiperSlide>
+
       </Swiper>
     </>
   );

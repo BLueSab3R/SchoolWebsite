@@ -41,6 +41,11 @@ function Header() {
                         <Link to='/'> <button className="dropbtn">ОСВІТНЯ ДІЯЛЬНІСТЬ</button> </Link>
                         <div className="dropdown-content">
                             <Link to='nus'>Нова українська школа</Link>
+                            <Link to='educationalPrograms'>Освітні програми</Link>
+                            <Link to='methodologicalAssociations'>Методичні об'єднання</Link>
+                            <Link to='EIT/STA'>ЗНО/ДПА</Link>
+                            <Link to='distanceEducation'>Дистанційне навчання</Link>
+                            <Link to='inclusiveEducation'>Інклюзивне навчання</Link>
                         </div>
                     </div>
                     <div className="dropdown">
@@ -79,16 +84,13 @@ function Header() {
                     <div className="dropdown">
                         <button className="dropbtn">Методична робота</button>
                         <div className="dropdown-content">
-                            <Link to='educationalPrograms'>Освітні програми</Link>
+
+
                             <Link to='educationalProjects'>Освітні проекти - 'Єдина школа'</Link>
                             <Link to='olympics'>Олімпіади</Link>
                             <Link to='competitions'>Конкурси</Link>
                             <Link to='workingWithGiftedStudents'>Робота з обдарованими учнями</Link>
                             <Link to='ourPride'>Наша гордість</Link>
-                            <Link to='methodologicalAssociations'>Методичні об'єднання</Link>
-                            <Link to='EIT/STA'>ЗНО/ДПА</Link>
-                            <Link to='distanceEducation'>Дистанційне навчання</Link>
-                            <Link to='inclusiveEducation'>Інклюзивне навчання</Link>
                         </div>
                     </div>
                     <div className="dropdown">
