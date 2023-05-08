@@ -7,14 +7,14 @@
     overflow: hidden;
     position: relative;
     z-index: 0;
-    width: 100vw;
+    width: 98.9vw;
+    max-width: 99vw;
 }
 
 
 .styles {
-    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
-
     p {
         text-align: center;
         justify-content: center;
@@ -40,8 +40,8 @@
 .notificationDetails>* {
     width: 15rem;
     height: auto;
-    padding: 10px;
     margin: 10px;
+
 }
 
 .notificationData {
