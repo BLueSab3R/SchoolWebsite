@@ -1,45 +1,67 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Autoplay, Pagination } from "swiper";
+import style from './Home.module.scss'
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 
+SwiperCore.use([Autoplay, Pagination]);
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function App() {
-  return (
-    <>
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 5000,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide><img src="slider/1.jpg"></img></SwiperSlide>
-        <SwiperSlide><img src="slider/2.jpg"></img></SwiperSlide>
-        <SwiperSlide><img src="slider/3.jpg"></img></SwiperSlide>
-        <SwiperSlide><img src="slider/4.jpg"></img></SwiperSlide>
-        <SwiperSlide><img src="slider/5.jpg"></img></SwiperSlide>
-        <SwiperSlide><img src="slider/6.jpg"></img></SwiperSlide>
-        <SwiperSlide><img src="slider/7.jpg"></img></SwiperSlide>
-        <SwiperSlide><img src="slider/8.jpg"></img></SwiperSlide>
-        <SwiperSlide><img src="slider/9.jpg"></img></SwiperSlide>
-        <SwiperSlide><img src="slider/10.jpg"></img></SwiperSlide>
+  const slides = [
+    { image: '/slider/1.jpg' },
+    { image: '/slider/2.jpg' },
+    { image: '/slider/3.jpg' },
+    { image: '/slider/4.jpg' },
+    { image: '/slider/5.jpg' },
+    { image: '/slider/6.jpg' },
+    { image: '/slider/7.jpg' },
+    { image: '/slider/8.jpg' },
+    { image: '/slider/9.jpg' },
+    { image: '/slider/10.jpg' },
+  ];
+  const [swiper, setSwiper] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
-      </Swiper>
-    </>
+  const goToSlide = (index) => {
+    if (swiper) { swiper.slideTo(index) }
+  };
+  const handleSlideChange = () => {
+    if (swiper) { setActiveIndex(swiper.realIndex) };
+  }
+  return (
+    <div className={style.container}>
+      <>
+        <Swiper
+          onSwiper={setSwiper}
+          onSlideChange={handleSlideChange}
+          spaceBetween={0}
+          slidesPerView = {1}
+          centeredSlides={true}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+            renderBullet: function (index, className) {
+              return `<span class="${className}"></span>`;
+            },
+          }}
+          className={style.mySwiper}
+        >
+          {slides.map((slide, index) => (
+            <SwiperSlide key={index}>
+              <img src={slide.image} alt={`Slide${index + 1}`}></img>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </>
+    </div>
+
   );
 }
