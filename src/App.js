@@ -24,6 +24,7 @@ import EducationalPrograms from './pages/EducationalPrograms';
 import Olympics from './pages/Olympics';
 import EducationalProjects from './pages/EducationalProjects';
 import Nus from './pages/Nus';
+import Administration from './pages/Administration';
 function App() {
   return (
     <div className='wrapper clear'>
@@ -72,6 +73,7 @@ function App() {
           <Route path = 'workOfThePsychologicalService' element = {<WorkOfThePsychologicalService/>}/>
           <Route path = 'library' element = {<Content/>}/>
           <Route path = 'nus' element = {<Nus/>}/>
+          <Route path = 'administration' element = {<Administration />} />
         </Routes>
       <Information />
       </div>

@@ -2,11 +2,14 @@ import style from './StylesForPages.module.scss';
 import teachers from './TeachersData/Data';
 
 function TeachingStaff() {
+    const sortedTeachers = teachers.sort((a,b)=>{
+        return a.name.localeCompare(b.name);
+    })
     return (
         <div className={style.styles}>
             <div className={style.teachers}>
                 <div className={style.teachersCard}>
-                    {teachers.map(({ name, src }) => (
+                    {sortedTeachers.map(({ name, src }) => (
                         <div key={name} className={style.teacherCard}>
                             <img src={`${process.env.PUBLIC_URL}${src}`} alt={name} />
                             {name === 'Богата Олександра Миколаївна' && (

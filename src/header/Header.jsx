@@ -24,7 +24,7 @@ function Header() {
                         <Link to='/'> <button className="dropbtn">ГОЛОВНА</button> </Link>
                         <div className="dropdown-content">
                             <Link to='schoolHistory'>ІСТОРІЯ</Link>
-                            <Link to='/'>АДМІНІСТРАЦІЯ</Link>
+                            <Link to='administration'>АДМІНІСТРАЦІЯ</Link>
                             <Link to='teachingstaff'>ПЕДАГОГІЧНИЙ КОЛЕКТИВ</Link>
                         </div>
                     </div>
