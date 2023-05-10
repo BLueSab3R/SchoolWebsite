@@ -252,6 +252,10 @@
 }
 
 .admnistrationColumn {
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -280,6 +284,10 @@
         height: 100%;
         padding: 1rem;
         box-sizing: border-box;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
     }
 
     p,
