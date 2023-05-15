@@ -23,7 +23,7 @@ function Information() {
                     className='youtube social'
                 >
                     <FontAwesomeIcon icon={faFacebook}
-                        size='3x'
+                        size='5x'
                     />
                 </a>
             </div>
