@@ -7,14 +7,13 @@
     overflow: hidden;
     position: relative;
     z-index: 0;
-    width: 98.9vw;
-    max-width: 99vw;
+    max-width: 100%;
 }
-
 
 .styles {
     max-width: 100%;
     box-sizing: border-box;
+
     p {
         text-align: center;
         justify-content: center;
@@ -41,7 +40,6 @@
     width: 15rem;
     height: auto;
     margin: 10px;
-
 }
 
 .notificationData {
@@ -82,6 +80,11 @@
     color: #fff;
 }
 
-.contaier {
+.container {
     overflow: hidden;
+}
+
+.mySwiper {
+    max-width: 100%;
+    height: auto;
 }

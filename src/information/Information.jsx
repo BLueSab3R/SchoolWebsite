@@ -27,9 +27,6 @@ function Information() {
                     />
                 </a>
             </div>
-            {/* <h4 className={style.number}>
-                Телефон: 0459876593
-            </h4> */}
         </div >
 
 
