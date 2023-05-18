@@ -27,9 +27,7 @@ export default function App() {
   const [swiper, setSwiper] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const goToSlide = (index) => {
-    if (swiper) { swiper.slideTo(index) }
-  };
+
   const handleSlideChange = () => {
     if (swiper) { setActiveIndex(swiper.realIndex) };
   }
