@@ -57,12 +57,6 @@ export default function App() {
           delay: 4000,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-          renderBullet: function (index, className) {
-            return `<span class="${className}"></span>`;
-          },
-        }}
         className={style.mySwiper}
       >
         {slides.map((slide, index) => (

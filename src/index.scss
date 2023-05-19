@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
 
-body.large-font {
-  font-size: 30px;
-}
-
 body {
   background: #ffffff;
   margin: 0;
@@ -11,11 +7,13 @@ body {
 }
 
 * {
-  font-size: 20px;
   font-family: 'EB Garamond', serif;
+  font-size: 20px;
 }
 
-
+.large-font {
+  font-size: 30px;
+}
 
 .swiper-slide {
   box-sizing: border-box;
@@ -103,7 +101,6 @@ body {
 
 .dropdown:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 0, 0, 0.4);
-
 }
 
 /* Links inside the dropdown */
@@ -116,7 +113,7 @@ body {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: lighten($color: rgb(183, 180, 180), $amount: 1);
+  background-color: lighten($color: rgb(161, 160, 160), $amount:1);
 }
 
 /* Show the dropdown menu on hover */

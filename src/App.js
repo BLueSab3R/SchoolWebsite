@@ -26,8 +26,11 @@ import Olympics from './pages/Olympics';
 import EducationalProjects from './pages/EducationalProjects';
 import Nus from './pages/Nus';
 import Administration from './pages/Administration';
+
+
 function App() {
   return (
+    
     <div className='wrapper clear'>
       <Header />
       <div className='app-wrapper-content'>

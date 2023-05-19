@@ -21,9 +21,7 @@
     cursor: default;
 }
 
-.text {
-    justify-content: center;
-}
+
 
 .styles {
     h3 {
@@ -184,10 +182,10 @@
 
 .text {
     margin-left: 3rem;
-    grid-area: t;
     font-size: 21px;
     width: 100%;
     height: 100%;
+    justify-content: center;
 
     h3 {
         text-align: center;

@@ -1,5 +1,6 @@
-import style from './Header.module.scss'
 import { Link } from 'react-router-dom'
+import FontSizeToggle from './FontSizeToggle';
+import style from './Header.module.scss'
 
 function Header() {
     return (
@@ -9,7 +10,6 @@ function Header() {
                 <div className={style.name}>
                     <h1 className={style.text}>
                         Шпитьківський академічний ліцей «Скіф»
-
                     </h1>
                     <h1 className={style.text}>
                         Дмитрівської сільської ради
@@ -118,6 +118,7 @@ function Header() {
                     <div className='schedule'>
                         <Link to='schedule'> <button className="dropbtn">ЄДИНА ШКОЛА</button> </Link>
                     </div>
+                    <FontSizeToggle/>
                 </li>
             </ul>
         </div >

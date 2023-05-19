@@ -23,13 +23,9 @@
     width: 80%;
 }
 
-.text {
-    font-size: 10px;
-    text-align: center;
-}
 
 h1 {
-    font-size: 10px;
+    // font-size: 10px;
     color: white;
 }
 
@@ -41,5 +37,17 @@ h1 {
 }
 
 .text {
+    text-align: center;
     font-size: 43px;
+}
+
+button {
+    background-color: #273878;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+button:hover {
+    background-color: rgba(161, 160, 160, 0.5);
 }
