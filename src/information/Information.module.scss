@@ -1,23 +1,24 @@
-.wrapper {
+.information{
     font-size: 20px;
     background: #232244;
+    background-size: 100%;
     grid-area: information;
+}
+.wrapper {
     display: flex;
     flex-direction: row;
-    overflow: hidden;
     justify-content: space-between;
-    background-size: 100% 100%;
-
-  }
-  
+}
 
 
-  .links {
+
+.links {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: #4dbcfd;
+
     p {
         color: white;
     }
@@ -27,16 +28,20 @@
 h4 {
     color: white;
 }
-.content{
+
+.content {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    h4{
+    margin-bottom: 0;
+    h4 {
+        margin: 0;
         font-size: 22px;
     }
 }
-.social{
+
+.social {
     flex: 1;
     display: flex;
     justify-content: center;

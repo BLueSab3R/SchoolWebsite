@@ -2,6 +2,7 @@ import Header from './header/Header';
 import Home from './home/Home';
 import './index.scss';
 import { Route, Routes } from 'react-router-dom'
+import React, { useState } from "react";
 import SchoolHistory from './pages/SchoolHistory';
 import TeachingStaff from './pages/TeachingStaff';
 import LyceumTarget from './pages/LyceumTarget';
@@ -75,8 +76,8 @@ function App() {
           <Route path = 'nus' element = {<Nus/>}/>
           <Route path = 'administration' element = {<Administration />} />
         </Routes>
-      <Information />
       </div>
+      <Information />
     </div>
   );
 }

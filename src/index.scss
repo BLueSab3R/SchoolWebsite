@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+body.large-font {
+  font-size: 30px;
+}
+
 body {
-
   background: #ffffff;
-
   margin: 0;
   text-align: center;
 }
@@ -24,6 +27,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: 2s; // Змініть тривалість анімації за необхідності
+  position: relative;
+}
+
+.swiper-slide-next,
+.swiper-slide-prev {
+  transition-duration: 2; // Змініть тривалість анімації за необхідності
+}
+
+.swiper-slide-active {
+  transition-duration: 2s; // Змініть тривалість анімації за необхідності
 }
 
 .swiper-slide img {
@@ -35,26 +49,26 @@ body {
 }
 
 .wrapper {
-  width: 100%;
-  height: 100vh;
-  background-color: #ffffff;
   display: grid;
-  grid-template-rows: 0.7fr 2.65fr;
+  grid-template-rows: 0.7fr auto 0.7fr;
   grid-template-areas:
     "header"
     "content"
+    "information";
+  min-height: 100vh;
 }
 
 .app-wrapper-content {
   grid-area: content;
+  margin-bottom: 0;
 }
 
 
 /* Style the dropdown button */
 .dropbtn {
-  
+
   cursor: pointer;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   color: white;
   padding: 1rem;
   font-size: 20px;
@@ -115,5 +129,3 @@ body {
     width: 100%;
   }
 }
-
-

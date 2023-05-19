@@ -31,7 +31,7 @@ function Header() {
                     <div className="dropdown">
                         <button className="dropbtn">ІНФОРМАЦІЙНА ВІДКРИТІСТЬ ТА ПРОЗОРІСТЬ</button>
                         <div className="dropdown-content">
-                            <Link to='assessmentOfStudents'>ОЦІНЮВАННЯ ЗДОБУВАЧІВ освіти</Link>
+                            <Link to='assessmentOfStudents'>ОЦІНЮВАННЯ ЗДОБУВАЧІВ ОСВІТИ</Link>
                             <Link to='rulesFordAmission'>Правила прийому до першого класу</Link>
                             <Link to='studentsRule'>Права і обов'язки учнів</Link>
                             <Link to='personalDataProtection'>Захист персональних даних</Link>

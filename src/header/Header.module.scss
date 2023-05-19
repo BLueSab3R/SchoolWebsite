@@ -1,3 +1,12 @@
+.header {
+    background-color: #273878;
+    background-size: 100%;
+    background-position: center;
+    position: sticky;
+    grid-area: header;
+    z-index: 999;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -24,14 +33,7 @@ h1 {
     color: white;
 }
 
-.header {
-    background-color: #273878;
-    background-size: 100% 100%;
-    background-position: center center;
-    position: sticky;
-    grid-area: header;
-    z-index: 999;
-}
+
 
 
 .name {

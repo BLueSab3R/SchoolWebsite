@@ -3,7 +3,7 @@ import style from './StylesForPages.module.scss'
 
 const rightsAndObligationsOfParentsOrPersonsInLocoParentis = () => {
     return (
-        <div sclassName={style.styles} >
+        <div className={style.styles} >
             <ul>
                 <h3>            Основні права і обов'язки батьків українською законодавством визначаються у сімейному кодексі України та інших нормативно-правових актах. Нижче наведено деякі з них:
                 </h3>

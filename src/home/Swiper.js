@@ -29,19 +29,32 @@ export default function App() {
 
 
   const handleSlideChange = () => {
-    if (swiper) { setActiveIndex(swiper.realIndex) };
+    if (swiper) {
+      setActiveIndex(swiper.realIndex);
+      if (swiper.isEnd) {
+        setTimeout(() => {
+          swiper.slideTo(0, 500); // Змініть швидкість переходу за необхідності
+        }, 500);
+      }
+    }
   }
+
+
   return (
     <div className={style.container}>
       <>
         <Swiper
+          loop={false}
+          freeMode={false}
+
           onSwiper={setSwiper}
           onSlideChange={handleSlideChange}
           spaceBetween={0}
-          slidesPerView = {1}
-          centeredSlides={true}
+          slidesPerView={1}
+          effect='slide'
+          // centeredSlides={true}
           autoplay={{
-            delay: 5000,
+            delay: 8000,
             disableOnInteraction: false,
           }}
           pagination={{
