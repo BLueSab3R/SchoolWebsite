@@ -1,8 +1,7 @@
-//  import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import style from './Information.module.scss'
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook} from '@fortawesome/free-brands-svg-icons';
 
 
 function Information() {

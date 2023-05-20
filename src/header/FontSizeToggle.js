@@ -20,7 +20,7 @@ const FontSizeToggle = () => {
 
     return (
         <div>
-            <button onClick={toggleFontSize}>ДЛЯ СЛАБОРОЗОРИХ</button>
+            <button  className={style.toggle} onClick={toggleFontSize}>ДЛЯ СЛАБОРОЗОРИХ</button>
         </div>
     );
 };

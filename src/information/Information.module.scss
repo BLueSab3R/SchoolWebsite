@@ -1,9 +1,9 @@
-.information{
-    font-size: 20px;
+.information {
     background: #232244;
     background-size: 100%;
     grid-area: information;
 }
+
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -35,10 +35,7 @@ h4 {
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
-    h4 {
-        margin: 0;
-        font-size: 22px;
-    }
+
 }
 
 .social {

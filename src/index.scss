@@ -8,19 +8,21 @@ body {
 
 * {
   font-family: 'EB Garamond', serif;
+  font-size: 21px;
+}
+
+.small-font {
   font-size: 20px;
 }
 
 .large-font {
   font-size: 30px;
 }
-
 .swiper-slide {
   box-sizing: border-box;
   overflow: hidden;
   box-sizing: border-box;
   text-align: center;
-  font-size: 18px;
   background: #fff;
   display: flex;
   justify-content: center;
@@ -64,12 +66,10 @@ body {
 
 /* Style the dropdown button */
 .dropbtn {
-
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
   color: white;
   padding: 1rem;
-  font-size: 20px;
   border: none;
 }
 

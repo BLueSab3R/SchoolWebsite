@@ -6,7 +6,10 @@
     grid-area: header;
     z-index: 999;
 }
-
+.toggle {
+    font-size: 25px;
+  }
+  
 .logo {
     display: flex;
     align-items: center;
@@ -51,3 +54,4 @@ button {
 button:hover {
     background-color: rgba(161, 160, 160, 0.5);
 }
+
