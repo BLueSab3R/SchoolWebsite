@@ -26,8 +26,24 @@ import Olympics from './pages/Olympics';
 import EducationalProjects from './pages/EducationalProjects';
 import Nus from './pages/Nus';
 import Administration from './pages/Administration';
-
-
+import Nutrition from './pages/Nutrition';
+import EAIDPA from './pages/EAIDPA';
+import RulesOfConductForStudents from './pages/rulesOfConductForStudents'
+import CounteringBullying from './pages/counteringBullying';
+import WorkingWithGiftedStudents from './pages/workingWithGiftedStudents';
+import ClubsAndSections from './pages/clubsAndSections';
+import InclusiveEducation from './pages/inclusiveEducation';
+import DistanceEducation from './pages/distanceEducation';
+import FormationOfBehaviorOfCorrectSecurityActionsInConditionsOfMartialLaw from './pages/formationOfBehaviorOfCorrectSecurityActionsInConditionsOfMartialLaw';
+import LegalEducationAndPreventionOfBadHabitsAndDeviantBehaviorOfChildren from './pages/legalEducationAndPreventionOfBadHabitsAndDeviantBehaviorOfChildren';
+import NationalAndPatrioticEducation from './pages/nationalAndPatrioticEducation';
+import StudentSelfGovernment from './pages/studentSelf-government';
+import RulesOfBehaviorDuringTheHolidays from './pages/rulesOfBehaviorDuringTheHolidays';
+import ComplianceWithInternalRegulations from './pages/complianceWithInternalRegulations';
+import PreventionOfInjuriesDuringTheEducationalProcess from './pages/preventionOfInjuriesDuringTheEducationalProcess';
+import ProtectionOfChildrensRights from './pages/protectionOfChildrensRights';
+import Competitions from './pages/competitions';
+import MethodologicalAssociations from './pages/methodologicalAssociations';
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -61,33 +77,33 @@ function App() {
                 <Route path='personalDataProtection' element={<PersonalDataProtection />} />
                 <Route path='statute' element={<Statut />} />
                 <Route path='content' element={<Content />} />
-                <Route path='clubsAndSections' element={<Content />} />
-                <Route path='protectionOfChildrensRights' element={<Content />} />
-                <Route path='preventionOfInjuriesDuringTheEducationalProcess' element={<Content />} />
-                <Route path='complianceWithInternalRegulations' element={<Content />} />
-                <Route path='Food' element={<Content />} />
-                <Route path='rulesOfBehaviorDuringTheHolidays' element={<Content />} />
-                <Route path='studentSelf-government' element={<Content />} />
-                <Route path='nationalAndPatrioticEducation' element={<Content />} />
+                <Route path='clubsAndSections' element={<ClubsAndSections />} />
+                <Route path='protectionOfChildrensRights' element={<ProtectionOfChildrensRights />} />
+                <Route path='preventionOfInjuriesDuringTheEducationalProcess' element={<PreventionOfInjuriesDuringTheEducationalProcess />} />
+                <Route path='complianceWithInternalRegulations' element={<ComplianceWithInternalRegulations />} />
+                <Route path='rulesOfBehaviorDuringTheHolidays' element={<RulesOfBehaviorDuringTheHolidays />} />
+                <Route path='studentSelf-government' element={<StudentSelfGovernment />} />
+                <Route path='nationalAndPatrioticEducation' element={<NationalAndPatrioticEducation />} />
                 <Route path='educationalProjects' element={<EducationalProjects />} />
-                <Route path='legalEducationAndPreventionOfBadHabitsAndDeviantBehaviorOfChildren' element={<Content />} />
-                <Route path='formationOfBehaviorOfCorrectSecurityActionsInConditionsOfMartialLaw' element={<Content />} />
-                <Route path='counteringBullying' element={<Content />} />
-                <Route path='rulesOfConductForStudents' element={<Content />} />
+                <Route path='legalEducationAndPreventionOfBadHabitsAndDeviantBehaviorOfChildren' element={<LegalEducationAndPreventionOfBadHabitsAndDeviantBehaviorOfChildren />} />
+                <Route path='formationOfBehaviorOfCorrectSecurityActionsInConditionsOfMartialLaw' element={<FormationOfBehaviorOfCorrectSecurityActionsInConditionsOfMartialLaw />} />
+                <Route path='counteringBullying' element={<CounteringBullying />} />
+                <Route path='rulesOfConductForStudents' element={<RulesOfConductForStudents />} />
                 <Route path='rightsAndObligationsOfParentsOrPersonsInLocoParentis' element={<RightsAndObligationsOfParentsOrPersonsInLocoParentis />} />
                 <Route path='recommendationsForRaisingASuccessfulStudent' element={<RecommendationsForRaisingASuccessfulStudent />} />
                 <Route path='educationalPrograms' element={<EducationalPrograms />} />
                 <Route path='olympics' element={<Olympics />} />
-                <Route path='competitions' element={<Content />} />
-                <Route path='workingWithGiftedStudents' element={<Content />} />
-                <Route path='ourPride' element={<Content />} />
-                <Route path='EIT/STA' element={<Content />} />
-                <Route path='distanceEducation' element={<Content />} />
-                <Route path='inclusiveEducation' element={<Content />} />
+                <Route path='competitions' element={<Competitions />} />
+                <Route path='workingWithGiftedStudents' element={<WorkingWithGiftedStudents />} />
+                <Route path='EIT/STA' element={<EAIDPA/>} />
+                <Route path='distanceEducation' element={<DistanceEducation />} />
+                <Route path='inclusiveEducation' element={<InclusiveEducation />} />
                 <Route path='workOfThePsychologicalService' element={<WorkOfThePsychologicalService />} />
-                <Route path='library' element={<Content />} />
                 <Route path='nus' element={<Nus />} />
                 <Route path='administration' element={<Administration />} />
+                <Route path ='nutrition' element = {<Nutrition/>} />
+                <Route path ='methodologicalAssociations'element ={<MethodologicalAssociations />} />
+                {/* <Route path = 'license' element = {}/> */}
               </Routes>
             </div>
             <Information />
