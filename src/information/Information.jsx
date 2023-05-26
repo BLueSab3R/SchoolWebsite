@@ -23,7 +23,7 @@ function Information() {
                         className='FaceBook social'
                     >
                         <FontAwesomeIcon icon={faFacebook}
-                            size='5x'
+                        size='5x'
                         />
                     </a>
                 </div>

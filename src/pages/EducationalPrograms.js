@@ -11,7 +11,6 @@ const EducationalPrograms = () => {
 
     return (
         <div>
-
             <p onClick={() => setFile1(!file1)} className={style.links}>Освітня програма 10 клас.docx</p>
             {file1 &&
                 <iframe src="https://drive.google.com/file/d/1pRQv-K19gOo2B2EiZv4Wpl5cHEHbrYPc/preview" width="100%" height="600" />}

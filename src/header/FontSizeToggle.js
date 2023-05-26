@@ -13,7 +13,7 @@ const FontSizeToggle = () => {
     const newSize = isIncreased ? '30px' : '20px';
     const elements = document.querySelectorAll('*');
     elements.forEach((element) => {
-      if (!element.classList.contains(style.text) && !element.classList.contains(styles.social)) {
+      if (!element.classList.contains(style.text) && !element.classList.contains(styles.information)) {
         element.style.fontSize = newSize;
       }
     });
