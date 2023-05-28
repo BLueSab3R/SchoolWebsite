@@ -122,8 +122,9 @@ body {
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
-  .wrapper {
-    width: 100%;
+@media only screen and (max-width: 500px) {
+  .app {
+    display: flex;
+    flex-direction: column;
   }
 }

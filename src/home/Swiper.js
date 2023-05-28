@@ -66,7 +66,6 @@ export default function App() {
         ))}
       </Swiper>
       <div className={`${style.information} ${showInformation ? style.show : style.hide}`}>
-        {/* Content of the information element */}
       </div>
     </div>
   );

@@ -12,6 +12,12 @@
     height: 84vh;
 }
 
+.mySwiper img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
 .styles {
     max-width: 100%;
     box-sizing: border-box;
@@ -84,4 +90,3 @@
 .container {
     overflow: hidden;
 }
-
