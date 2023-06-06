@@ -18,7 +18,7 @@ function Home() {
     <div className={style.styles}>
       <SwiperSlider/>
       <div className={style.notificationData}>
-        <h3>Оповіщення</h3>
+        <h4>Оповіщення</h4>
         <div className={style.notificationDetails}>
           {currentNews.map((news) => (
             <Notifications key={news.id} id={news.id} title={news.title} description={news.description} image={news.image} />

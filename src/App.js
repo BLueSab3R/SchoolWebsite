@@ -103,7 +103,6 @@ function App() {
                 <Route path='administration' element={<Administration />} />
                 <Route path ='nutrition' element = {<Nutrition/>} />
                 <Route path ='methodologicalAssociations'element ={<MethodologicalAssociations />} />
-                {/* <Route path = 'license' element = {}/> */}
               </Routes>
             </div>
             <Information />
