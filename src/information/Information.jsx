@@ -22,7 +22,9 @@ function Information() {
                     <a href='https://www.facebook.com/profile.php?id=100075877736036'
                         className='FaceBook social'
                     >
-                       
+                        <FontAwesomeIcon icon={faFacebook}
+                        size='5x'
+                        />
                     </a>
                 </div>
             </div >
